@@ -1,10 +1,13 @@
 municipality_code: "08542"
 municipality_name: "五霞町"
+municipality_name_en: "Goka Town"
 audit_status: "IN_PROGRESS"
-notes: "五霞町中央公民館図書室網羅確認。公民館図書室体制"
+notes: "五霞町中央公民館図書室を収録。独立監査によりSRC-0014 p.41に基づき所蔵数を正確な18,381冊/点（貸出5,154冊/点）へ修正し、閲覧席数をnullに修正済み。"
+uninvestigated_or_excluded_facilities: "図書館法上の公立図書館は未設置（中央公民館図書室が町の中心拠点）"
 facilities:
   - facility_id: "IB-08542-01"
     name: "五霞町中央公民館図書室"
+    name_en: "Goka Town Central Community Center Reading Room"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "306-0307"
@@ -15,12 +18,18 @@ facilities:
     opened_year_month: "1980-03"
     building_structure: "鉄筋コンクリート作り"
     floor_area_m2: 117.0
-    reading_seats: 8
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 5154
+      collection_count: 18381
+      annual_loans: 5154
+      breakdown:
+        general: 9229
+        children: 9152
+        local: 0
+        av: 0
     history:
       - date: "1980-03"
         event: "創設"
@@ -28,7 +37,15 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.40-42に基づき所蔵数18,381・貸出数5,154に修正、未記載の閲覧席数をnullに修正"
+      unverified_fields:
+        - "ordinance_article"
+        - "reading_seats"

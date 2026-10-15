@@ -1,10 +1,13 @@
 municipality_code: "08202"
 municipality_name: "日立市"
+municipality_name_en: "Hitachi City"
 audit_status: "IN_PROGRESS"
-notes: "4館体制（記念・多賀・十王・南部）網羅確認。各館個別所蔵数確認済み。条例詳細照合中"
+notes: "4館体制（記念・多賀・十王・南部）の施設・単館別所蔵統計（SRC-0014）を照合済み。設置条例の条文番号照合および移動図書館ステーション等の確認が継続中。"
+uninvestigated_or_excluded_facilities: "移動図書館巡回ステーションおよび交流センター図書室は未調査"
 facilities:
   - facility_id: "IB-08202-01"
     name: "日立市立記念図書館"
+    name_en: "Hitachi City Memorial Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "317-0073"
@@ -21,6 +24,13 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 453087
+      annual_loans: null
+      breakdown:
+        general: 205034
+        children: 73244
+        mobile: 149594
+        local: 21552
+        av: 3663
     history:
       - date: "1962-04"
         event: "創設"
@@ -28,12 +38,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014による名簿・施設・所蔵統計照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08202-02"
     name: "日立市立多賀図書館"
+    name_en: "Hitachi City Taga Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "316-0006"
@@ -50,6 +68,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 135570
+      annual_loans: null
+      breakdown:
+        general: 68524
+        children: 60923
+        local: 6123
+        av: 4598
     history:
       - date: "1970-05"
         event: "創設"
@@ -57,12 +81,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014による名簿・施設・所蔵統計照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08202-03"
     name: "日立市立十王図書館"
+    name_en: "Hitachi City Juo Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "319-1304"
@@ -79,6 +111,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 113192
+      annual_loans: null
+      breakdown:
+        general: 64991
+        children: 40891
+        local: 4191
+        av: 3119
     history:
       - date: "2001-10"
         event: "創設"
@@ -86,12 +124,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014による名簿・施設・所蔵統計照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08202-04"
     name: "日立市立南部図書館"
+    name_en: "Hitachi City Nanbu Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "319-1222"
@@ -108,6 +154,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 117682
+      annual_loans: null
+      breakdown:
+        general: 67703
+        children: 42886
+        local: 4519
+        av: 2574
     history:
       - date: "2013-04"
         event: "創設"
@@ -115,7 +167,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014による名簿・施設・所蔵統計照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

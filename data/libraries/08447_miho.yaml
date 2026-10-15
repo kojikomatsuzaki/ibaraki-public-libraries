@@ -1,26 +1,35 @@
 municipality_code: "08447"
 municipality_name: "美浦村"
+municipality_name_en: "Miho Village"
 audit_status: "IN_PROGRESS"
-notes: "美浦村中央公民館図書室網羅確認。子育て支援センター等併設"
+notes: "美浦村中央公民館図書室を収録。独立監査によりSRC-0014 p.41に基づき所蔵数を正確な57,537冊/点（貸出41,372冊/点）へ修正し、閲覧席数をnullに修正済み。"
+uninvestigated_or_excluded_facilities: "図書館法上の公立図書館は未設置（中央公民館図書室が村の中心拠点）"
 facilities:
   - facility_id: "IB-08447-01"
     name: "美浦村中央公民館図書室"
+    name_en: "Miho Village Central Community Center Reading Room"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "300-0424"
-    address: "稲敷郡美浦村受領1460-1"
+    address: "稲敷郡美浦村受領1460-1 子育て支援センター・児童クラブ併設"
     phone: "029-885-8442"
     fax: "029-885-8443"
     established_year_month: "1982-10"
     opened_year_month: "1999-03"
     building_structure: "鉄筋2階"
     floor_area_m2: 277.0
-    reading_seats: 14
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 41372
+      collection_count: 57537
+      annual_loans: 41372
+      breakdown:
+        general: 38352
+        children: 17553
+        local: 1228
+        av: 404
     history:
       - date: "1982-10"
         event: "創設"
@@ -28,7 +37,15 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.40-42に基づき所蔵数57,537・貸出数41,372に修正、未記載の閲覧席数をnullに修正"
+      unverified_fields:
+        - "ordinance_article"
+        - "reading_seats"

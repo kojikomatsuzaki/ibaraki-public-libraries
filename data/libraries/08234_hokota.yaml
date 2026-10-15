@@ -1,29 +1,57 @@
 municipality_code: "08234"
 municipality_name: "鉾田市"
+municipality_name_en: "Hokota City"
 audit_status: "IN_PROGRESS"
-notes: "鉾田市立図書館および旭文庫・大洋文庫（規則第11条等）の網羅を確認。文庫別蔵書・貸出統計の抽出が継続中"
+notes: "鉾田市立図書館および規則(SRC-0012)に基づく2文庫（旭文庫・大洋文庫）を収録。独立監査により本館の創設(1982-04)・現館開館(1982-07)・延面積(928.28㎡)・席数(48席)・所蔵数(92,315冊)をSRC-0014 p.13, p.21に基づき正確に修正。"
+uninvestigated_or_excluded_facilities: "旭文庫・大洋文庫の個別面積・蔵書内訳は未確認"
 facilities:
   - facility_id: "IB-08234-01"
     name: "鉾田市立図書館"
+    name_en: "Hokota City Library"
+    category: "Cat A"
     legal_status: "central_library"
     postal_code: "311-1517"
     address: "鉾田市鉾田1444-1"
     phone: "0291-33-2020"
     fax: "0291-33-4799"
-    established_year_month: "2002-10"
-    opened_year_month: "2002-10"
-    building_structure: "鉄骨造 地上1階"
-    floor_area_m2: 1968.20
-    reading_seats: 62
-    collection_count: 80971
+    established_year_month: "1982-04"
+    opened_year_month: "1982-07"
+    building_structure: "鉄筋コンクリート造 2階建"
+    floor_area_m2: 928.28
+    reading_seats: 48
+    statistics:
+      scope: "system_aggregate"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 92315
+      annual_loans: null
+      breakdown:
+        general: 53226
+        children: 31738
+        local: 3713
+        av: 3638
+    history:
+      - date: "1982-04"
+        event: "創設"
+      - date: "1982-07"
+        event: "現館開館"
     sources:
       - "SRC-0012"
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0012"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0012およびSRC-0014 p.13, p.21により所蔵数92,315冊を含む全項目を修正・検証完了"
+      unverified_fields: []
   - facility_id: "IB-08234-02"
     name: "鉾田市立図書館 旭文庫"
+    name_en: "Hokota City Library Asahi Bunko"
+    category: "Cat B"
     legal_status: "branch_collection"
     postal_code: "311-1403"
     address: "鉾田市上沢1007-4 旭公民館内"
@@ -34,14 +62,35 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0012"
+    field_sources:
+      identity_and_location: "SRC-0012"
+      legal_basis: "SRC-0012"
+      building_and_capacity: "unverified"
+      statistics: "unverified (included in IB-08234-01 system_aggregate)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "規則により設置を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08234-03"
     name: "鉾田市立図書館 大洋文庫"
+    name_en: "Hokota City Library Taiyo Bunko"
+    category: "Cat B"
     legal_status: "branch_collection"
     postal_code: "311-2117"
     address: "鉾田市汲上2603 大洋公民館内"
@@ -52,9 +101,28 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0012"
+    field_sources:
+      identity_and_location: "SRC-0012"
+      legal_basis: "SRC-0012"
+      building_and_capacity: "unverified"
+      statistics: "unverified (included in IB-08234-01 system_aggregate)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "規則により設置を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"

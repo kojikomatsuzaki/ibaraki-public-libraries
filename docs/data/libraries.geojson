@@ -1,0 +1,2344 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Ibaraki Public Libraries GeoJSON",
+    "note": "Exact lat/lon coordinates are not guessed; geometry is null until primary geocoding verification is completed. Use address attributes for geocoding.",
+    "total_features": 100
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "IB-08201-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08201-01",
+        "municipality_code": "08201",
+        "municipality_name": "水戸市",
+        "name": "水戸市立中央図書館",
+        "name_en": "Mito City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県水戸市大町3-3-20",
+        "phone": "029-226-3951",
+        "collection_count": 446102,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08201-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08201-02",
+        "municipality_code": "08201",
+        "municipality_name": "水戸市",
+        "name": "水戸市立東部図書館",
+        "name_en": "Mito City Tobu Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県水戸市元吉田町1973-27",
+        "phone": "029-248-4051",
+        "collection_count": 125661,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08201-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08201-03",
+        "municipality_code": "08201",
+        "municipality_name": "水戸市",
+        "name": "水戸市立西部図書館",
+        "name_en": "Mito City Seibu Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県水戸市堀町2311-1",
+        "phone": "029-255-5651",
+        "collection_count": 108382,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08201-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08201-04",
+        "municipality_code": "08201",
+        "municipality_name": "水戸市",
+        "name": "水戸市立見和図書館",
+        "name_en": "Mito City Miwa Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県水戸市見和2-500-2",
+        "phone": "029-350-2051",
+        "collection_count": 174370,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08201-05",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08201-05",
+        "municipality_code": "08201",
+        "municipality_name": "水戸市",
+        "name": "水戸市立常澄図書館",
+        "name_en": "Mito City Tsunezumi Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県水戸市大串町2134",
+        "phone": "029-269-1751",
+        "collection_count": 77797,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08201-06",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08201-06",
+        "municipality_code": "08201",
+        "municipality_name": "水戸市",
+        "name": "水戸市立内原図書館",
+        "name_en": "Mito City Uchihara Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県水戸市内原町1497-16",
+        "phone": "029-291-6451",
+        "collection_count": 102639,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0019"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08202-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08202-01",
+        "municipality_code": "08202",
+        "municipality_name": "日立市",
+        "name": "日立市立記念図書館",
+        "name_en": "Hitachi City Memorial Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県日立市幸町1-21-1 日立シビックセンター内",
+        "phone": "0294-24-7714",
+        "collection_count": 453087,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08202-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08202-02",
+        "municipality_code": "08202",
+        "municipality_name": "日立市",
+        "name": "日立市立多賀図書館",
+        "name_en": "Hitachi City Taga Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県日立市末広町1-1-4 日立市教育会館内",
+        "phone": "0294-33-2655",
+        "collection_count": 135570,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08202-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08202-03",
+        "municipality_code": "08202",
+        "municipality_name": "日立市",
+        "name": "日立市立十王図書館",
+        "name_en": "Hitachi City Juo Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県日立市十王町友部202-1",
+        "phone": "0294-20-2345",
+        "collection_count": 113192,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08202-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08202-04",
+        "municipality_code": "08202",
+        "municipality_name": "日立市",
+        "name": "日立市立南部図書館",
+        "name_en": "Hitachi City Nanbu Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県日立市久慈町3-24-1",
+        "phone": "0294-29-1125",
+        "collection_count": 117682,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08203-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08203-01",
+        "municipality_code": "08203",
+        "municipality_name": "土浦市",
+        "name": "土浦市立図書館",
+        "name_en": "Tsuchiura City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県土浦市大和町1-1",
+        "phone": "029-823-4646",
+        "collection_count": 517280,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0001",
+          "SRC-0002",
+          "SRC-0003",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08203-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08203-02",
+        "municipality_code": "08203",
+        "municipality_name": "土浦市",
+        "name": "土浦市立図書館 三中地区分館",
+        "name_en": "Tsuchiura City Library Sanchu District Branch",
+        "category": "Cat B",
+        "legal_status": "branch_library",
+        "address": "茨城県土浦市中村南4-8-35 三中地区公民館内",
+        "phone": "029-841-0161",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0001",
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08203-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08203-03",
+        "municipality_code": "08203",
+        "municipality_name": "土浦市",
+        "name": "土浦市立図書館 都和分館",
+        "name_en": "Tsuchiura City Library Tsuwa Branch",
+        "category": "Cat B",
+        "legal_status": "branch_library",
+        "address": "茨城県土浦市並木5-4824 都和公民館内",
+        "phone": "029-831-2670",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0001",
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08203-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08203-04",
+        "municipality_code": "08203",
+        "municipality_name": "土浦市",
+        "name": "土浦市立図書館 神立地区分館",
+        "name_en": "Tsuchiura City Library Kandatsu District Branch",
+        "category": "Cat B",
+        "legal_status": "branch_library",
+        "address": "茨城県土浦市神立中央5-11-5 神立地区コミュニティセンター内",
+        "phone": "029-831-6101",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0001",
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08203-05",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08203-05",
+        "municipality_code": "08203",
+        "municipality_name": "土浦市",
+        "name": "土浦市立図書館 新治地区分館",
+        "name_en": "Tsuchiura City Library Niihari District Branch",
+        "category": "Cat B",
+        "legal_status": "branch_library",
+        "address": "茨城県土浦市藤沢982 新治地区公民館内",
+        "phone": "029-862-2005",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0001",
+          "SRC-0002"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-01",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "古河市三和図書館（燦SUN館）",
+        "name_en": "Koga City Sanwa Library (Sun Sun Kan)",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県古河市仁連2042-1 古河市三和資料館併設",
+        "phone": "0280-75-1511",
+        "collection_count": 33651,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-02",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "古河市古河図書館",
+        "name_en": "Koga City Koga Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県古河市東3-7-19 古河市古河東公民館併設",
+        "phone": "0280-32-5299",
+        "collection_count": 129845,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-03",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "とねミドリ館図書室",
+        "name_en": "Tone Midori Kan Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県古河市内（社会教育施設課所管）",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-04",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "つつみ館図書室",
+        "name_en": "Tsutsumi Kan Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県古河市内（社会教育施設課所管）",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-05",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-05",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "古河断熱中田公民館図書室",
+        "name_en": "Nakada Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県古河市内（社会教育施設課所管）",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-06",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-06",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "ユーセンターKI総和図書室",
+        "name_en": "U-Center Sowa Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県古河市内（社会教育施設課所管）",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08204-07",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08204-07",
+        "municipality_code": "08204",
+        "municipality_name": "古河市",
+        "name": "総和地域交流センター図書室（コスモスプラザ）",
+        "name_en": "Sowa Regional Exchange Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県古河市内（社会教育施設課所管）",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0017"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08205-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08205-01",
+        "municipality_code": "08205",
+        "municipality_name": "石岡市",
+        "name": "石岡市立中央図書館",
+        "name_en": "Ishioka City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県石岡市若宮1-6-31",
+        "phone": "0299-24-1507",
+        "collection_count": 218287,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0004",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08205-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08205-02",
+        "municipality_code": "08205",
+        "municipality_name": "石岡市",
+        "name": "石岡市立こども図書館 本の森",
+        "name_en": "Ishioka City Children Library Hon no Mori",
+        "category": "Cat A",
+        "legal_status": "annex_facility",
+        "address": "茨城県石岡市若宮1-6-31（中央図書館敷地内別棟）",
+        "phone": "0299-24-1507",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0004",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08205-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08205-03",
+        "municipality_code": "08205",
+        "municipality_name": "石岡市",
+        "name": "石岡市郷の本棚やさと図書館",
+        "name_en": "Ishioka City Sato no Hondana Yasato Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県石岡市柿岡5680-1 八郷総合支所内",
+        "phone": "0299-43-1111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0004"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08207-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08207-01",
+        "municipality_code": "08207",
+        "municipality_name": "結城市",
+        "name": "ゆうき図書館（結城市立図書館）",
+        "name_en": "Yuki Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県結城市国府町1-1-1 結城市民情報センター内",
+        "phone": "0296-34-0150",
+        "collection_count": 303838,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08208-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08208-01",
+        "municipality_code": "08208",
+        "municipality_name": "龍ケ崎市",
+        "name": "龍ケ崎市立中央図書館",
+        "name_en": "Ryugasaki City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県龍ケ崎市馴馬町2630",
+        "phone": "0297-64-2202",
+        "collection_count": 247440,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08210-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08210-01",
+        "municipality_code": "08210",
+        "municipality_name": "下妻市",
+        "name": "下妻市立図書館",
+        "name_en": "Shimotsuma City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県下妻市砂沼新田35-1",
+        "phone": "0296-43-8811",
+        "collection_count": 226118,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08211-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08211-01",
+        "municipality_code": "08211",
+        "municipality_name": "常総市",
+        "name": "常総市立図書館",
+        "name_en": "Joso City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県常総市水海道天満町1606 二水会館併設",
+        "phone": "0297-23-5556",
+        "collection_count": 159194,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08211-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08211-02",
+        "municipality_code": "08211",
+        "municipality_name": "常総市",
+        "name": "常総市地域交流センター図書室",
+        "name_en": "Joso City Regional Exchange Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県常総市新石下2010",
+        "phone": "0297-42-0169",
+        "collection_count": 21876,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08212-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08212-01",
+        "municipality_code": "08212",
+        "municipality_name": "常陸太田市",
+        "name": "常陸太田市立図書館",
+        "name_en": "Hitachiota City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県常陸太田市中城町3282",
+        "phone": "0294-72-5555",
+        "collection_count": 251430,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0008",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08212-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08212-02",
+        "municipality_code": "08212",
+        "municipality_name": "常陸太田市",
+        "name": "常陸太田市立図書館 金砂郷分室",
+        "name_en": "Hitachiota City Library Kanasago Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県常陸太田市高柿町272 金砂郷交流センター内",
+        "phone": "0294-76-2111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0008"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08212-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08212-03",
+        "municipality_code": "08212",
+        "municipality_name": "常陸太田市",
+        "name": "常陸太田市立図書館 水府分室",
+        "name_en": "Hitachiota City Library Suifu Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県常陸太田市町分463-20 水府総合センター内",
+        "phone": "0294-85-1111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0008"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08212-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08212-04",
+        "municipality_code": "08212",
+        "municipality_name": "常陸太田市",
+        "name": "常陸太田市立図書館 里美分室",
+        "name_en": "Hitachiota City Library Satomi Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県常陸太田市大中町1653 里美文化センター内",
+        "phone": "0294-82-2111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0008"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08214-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08214-01",
+        "municipality_code": "08214",
+        "municipality_name": "高萩市",
+        "name": "高萩市立図書館",
+        "name_en": "Takahagi City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県高萩市高萩8-1 高萩市歴史民俗資料館併設",
+        "phone": "0293-23-7174",
+        "collection_count": 117816,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08215-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08215-01",
+        "municipality_code": "08215",
+        "municipality_name": "北茨城市",
+        "name": "北茨城市立図書館",
+        "name_en": "Kitaibaraki City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県北茨城市磯原町本町2-5-16",
+        "phone": "0293-42-1451",
+        "collection_count": 194099,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08216-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08216-01",
+        "municipality_code": "08216",
+        "municipality_name": "笠間市",
+        "name": "笠間市立笠間図書館",
+        "name_en": "Kasama City Kasama Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県笠間市石井2023-1",
+        "phone": "0296-72-5046",
+        "collection_count": 260291,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08216-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08216-02",
+        "municipality_code": "08216",
+        "municipality_name": "笠間市",
+        "name": "笠間市立友部図書館",
+        "name_en": "Kasama City Tomobe Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県笠間市平町2084",
+        "phone": "0296-78-1200",
+        "collection_count": 260890,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08216-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08216-03",
+        "municipality_code": "08216",
+        "municipality_name": "笠間市",
+        "name": "笠間市立岩間図書館",
+        "name_en": "Kasama City Iwama Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県笠間市下郷5140 市民センターいわま内",
+        "phone": "0299-45-2082",
+        "collection_count": 90500,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08217-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08217-01",
+        "municipality_code": "08217",
+        "municipality_name": "取手市",
+        "name": "取手市立取手図書館",
+        "name_en": "Toride City Toride Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県取手市取手1-12-16",
+        "phone": "0297-74-8361",
+        "collection_count": 225017,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08217-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08217-02",
+        "municipality_code": "08217",
+        "municipality_name": "取手市",
+        "name": "取手市立ふじしろ図書館",
+        "name_en": "Toride City Fujishiro Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県取手市藤代415",
+        "phone": "0297-70-8181",
+        "collection_count": 140160,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08219-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08219-01",
+        "municipality_code": "08219",
+        "municipality_name": "牛久市",
+        "name": "牛久市立中央図書館",
+        "name_en": "Ushiku City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県牛久市柏田町3304-1",
+        "phone": "029-871-1400",
+        "collection_count": 312013,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08220-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08220-01",
+        "municipality_code": "08220",
+        "municipality_name": "つくば市",
+        "name": "つくば市立中央図書館",
+        "name_en": "Tsukuba City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県つくば市吾妻2-8 つくば文化会館アルス内",
+        "phone": "029-856-4311",
+        "collection_count": 314309,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0006",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08220-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08220-02",
+        "municipality_code": "08220",
+        "municipality_name": "つくば市",
+        "name": "つくば市立中央図書館 谷田部交流センター図書室",
+        "name_en": "Tsukuba City Library Yatabe Exchange Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県つくば市谷田部4711 谷田部交流センター内",
+        "phone": "029-836-0567",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0006"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08220-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08220-03",
+        "municipality_code": "08220",
+        "municipality_name": "つくば市",
+        "name": "つくば市立中央図書館 筑波交流センター図書室",
+        "name_en": "Tsukuba City Library Tsukuba Exchange Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県つくば市北条5060 筑波交流センター内",
+        "phone": "029-867-0050",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0006"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08220-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08220-04",
+        "municipality_code": "08220",
+        "municipality_name": "つくば市",
+        "name": "つくば市立中央図書館 小野川交流センター図書室",
+        "name_en": "Tsukuba City Library Onogawa Exchange Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県つくば市館野5 小野川交流センター内",
+        "phone": "029-851-8201",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0006"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08220-05",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08220-05",
+        "municipality_code": "08220",
+        "municipality_name": "つくば市",
+        "name": "つくば市立中央図書館 茎崎交流センター図書室",
+        "name_en": "Tsukuba City Library Kukizaki Exchange Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県つくば市小茎318 茎崎交流センター内",
+        "phone": "029-876-0275",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0006"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08221-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08221-01",
+        "municipality_code": "08221",
+        "municipality_name": "ひたちなか市",
+        "name": "ひたちなか市立中央図書館",
+        "name_en": "Hitachinaka City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県ひたちなか市元町5-3",
+        "phone": "029-273-2247",
+        "collection_count": 261524,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08221-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08221-02",
+        "municipality_code": "08221",
+        "municipality_name": "ひたちなか市",
+        "name": "ひたちなか市立那珂湊図書館",
+        "name_en": "Hitachinaka City Nakaminato Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県ひたちなか市鍛冶屋窪3566",
+        "phone": "029-263-5499",
+        "collection_count": 102210,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08221-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08221-03",
+        "municipality_code": "08221",
+        "municipality_name": "ひたちなか市",
+        "name": "ひたちなか市立佐野図書館",
+        "name_en": "Hitachinaka City Sano Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県ひたちなか市高場1362-1",
+        "phone": "029-270-3811",
+        "collection_count": 149791,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08222-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08222-01",
+        "municipality_code": "08222",
+        "municipality_name": "鹿嶋市",
+        "name": "鹿嶋市立中央図書館",
+        "name_en": "Kashima City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県鹿嶋市宮中2398-1",
+        "phone": "0299-83-2510",
+        "collection_count": 193070,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0005",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08222-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08222-02",
+        "municipality_code": "08222",
+        "municipality_name": "鹿嶋市",
+        "name": "鹿嶋市立中央図書館 大野分館",
+        "name_en": "Kashima City Central Library Ohno Branch",
+        "category": "Cat B",
+        "legal_status": "branch_library",
+        "address": "茨城県鹿嶋市津賀1919-1 大野ふれあいセンター内",
+        "phone": "0299-69-1111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0005"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08223-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08223-01",
+        "municipality_code": "08223",
+        "municipality_name": "潮来市",
+        "name": "潮来市立図書館",
+        "name_en": "Itako City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県潮来市牛堀289",
+        "phone": "0299-80-3311",
+        "collection_count": 237971,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08224-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08224-01",
+        "municipality_code": "08224",
+        "municipality_name": "守谷市",
+        "name": "守谷中央図書館",
+        "name_en": "Moriya Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県守谷市大柏937-2",
+        "phone": "0297-45-1000",
+        "collection_count": 444191,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0007",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08224-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08224-02",
+        "municipality_code": "08224",
+        "municipality_name": "守谷市",
+        "name": "守谷市立図書館 中央公民館図書室",
+        "name_en": "Moriya City Library Central Community Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県守谷市百合ケ丘2-2540-1 中央公民館内",
+        "phone": "0297-48-6731",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0007"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08224-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08224-03",
+        "municipality_code": "08224",
+        "municipality_name": "守谷市",
+        "name": "守谷市立図書館 郷州公民館図書室",
+        "name_en": "Moriya City Library Goshu Community Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県守谷市みずき野5-3-3 郷州公民館内",
+        "phone": "0297-48-6711",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0007"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08224-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08224-04",
+        "municipality_code": "08224",
+        "municipality_name": "守谷市",
+        "name": "守谷市立図書館 高野公民館図書室",
+        "name_en": "Moriya City Library Koya Community Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県守谷市高野1142 高野公民館内",
+        "phone": "0297-45-5411",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0007"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08224-05",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08224-05",
+        "municipality_code": "08224",
+        "municipality_name": "守谷市",
+        "name": "守谷市立図書館 北守谷公民館図書室",
+        "name_en": "Moriya City Library Kitamoriya Community Center Branch Room",
+        "category": "Cat B",
+        "legal_status": "branch_room",
+        "address": "茨城県守谷市板戸井1977-2 北守谷公民館内",
+        "phone": "0297-47-0111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0007"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08225-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08225-01",
+        "municipality_code": "08225",
+        "municipality_name": "常陸大宮市",
+        "name": "常陸大宮市立図書情報館",
+        "name_en": "Hitachiomiya City Library and Information Center",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県常陸大宮市中富町3135-6 常陸大宮市文化センター併設",
+        "phone": "0295-53-7300",
+        "collection_count": 197444,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08226-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08226-01",
+        "municipality_code": "08226",
+        "municipality_name": "那珂市",
+        "name": "那珂市立図書館",
+        "name_en": "Naka City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県那珂市菅谷2995-1",
+        "phone": "029-352-1177",
+        "collection_count": 258605,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08227-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08227-01",
+        "municipality_code": "08227",
+        "municipality_name": "筑西市",
+        "name": "筑西市立中央図書館",
+        "name_en": "Chikusei City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県筑西市下岡崎1-11-1",
+        "phone": "0296-24-3530",
+        "collection_count": 288801,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08227-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08227-02",
+        "municipality_code": "08227",
+        "municipality_name": "筑西市",
+        "name": "筑西市立明野図書館",
+        "name_en": "Chikusei City Akeno Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県筑西市海老ケ島2120-7",
+        "phone": "0296-52-2466",
+        "collection_count": 115619,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08228-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08228-01",
+        "municipality_code": "08228",
+        "municipality_name": "坂東市",
+        "name": "坂東市立岩井図書館",
+        "name_en": "Bando City Iwai Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県坂東市岩井5082 坂東市民音楽ホール（ベルフォーレ）併設",
+        "phone": "0297-36-1300",
+        "collection_count": 140739,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0009",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08228-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08228-02",
+        "municipality_code": "08228",
+        "municipality_name": "坂東市",
+        "name": "坂東市立猿島図書館",
+        "name_en": "Bando City Sashima Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県坂東市山2726 坂東市立資料館（ミューズ）併設",
+        "phone": "0280-88-8700",
+        "collection_count": 115322,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0009",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08229-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08229-01",
+        "municipality_code": "08229",
+        "municipality_name": "稲敷市",
+        "name": "稲敷市立図書館",
+        "name_en": "Inashiki City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県稲敷市八千石18-1 稲敷市立歴史民俗資料館併設",
+        "phone": "0299-79-3111",
+        "collection_count": 157758,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0010",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08229-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08229-02",
+        "municipality_code": "08229",
+        "municipality_name": "稲敷市",
+        "name": "稲敷市江戸崎中央公民館図書室",
+        "name_en": "Inashiki City Edosaki Central Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県稲敷市江戸崎甲2148-2 江戸崎中央公民館内",
+        "phone": "029-892-2000",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0010"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08229-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08229-03",
+        "municipality_code": "08229",
+        "municipality_name": "稲敷市",
+        "name": "稲敷市新利根公民館図書室",
+        "name_en": "Inashiki City Shintone Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県稲敷市柴崎7430 新利根公民館内",
+        "phone": "0299-79-2111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0010"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08229-04",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08229-04",
+        "municipality_code": "08229",
+        "municipality_name": "稲敷市",
+        "name": "稲敷市桜川地区センター図書室",
+        "name_en": "Inashiki City Sakuragawa District Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県稲敷市須賀津208 桜川地区センター内",
+        "phone": "0299-79-2111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0010"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08230-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08230-01",
+        "municipality_code": "08230",
+        "municipality_name": "かすみがうら市",
+        "name": "かすみがうら市立図書館",
+        "name_en": "Kasumigaura City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県かすみがうら市深谷3719-1 霞ヶ浦コミュニティセンター併設",
+        "phone": "029-897-0647",
+        "collection_count": 130736,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0016"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08230-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08230-02",
+        "municipality_code": "08230",
+        "municipality_name": "かすみがうら市",
+        "name": "かすみがうら市立図書館 千代田分館",
+        "name_en": "Kasumigaura City Library Chiyoda Branch",
+        "category": "Cat B",
+        "legal_status": "branch_library",
+        "address": "茨城県かすみがうら市内 千代田コミュニティセンター（旧志筑小学校）内",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0016"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08230-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08230-03",
+        "municipality_code": "08230",
+        "municipality_name": "かすみがうら市",
+        "name": "下稲吉コミュニティセンター（中央出張所・旧働く女性の家）図書窓口",
+        "name_en": "Shimoinayoshi Community Center Book Pickup Point",
+        "category": "Cat C",
+        "legal_status": "service_point",
+        "address": "茨城県かすみがうら市下稲吉2633-19 付近（下稲吉コミュニティセンター内）",
+        "phone": null,
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0016"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08231-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08231-01",
+        "municipality_code": "08231",
+        "municipality_name": "桜川市",
+        "name": "桜川市立図書館",
+        "name_en": "Sakuragawa City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県桜川市東桜川1-21-1 桜川市生涯学習センター（さくらす）内",
+        "phone": "0296-71-7707",
+        "collection_count": 66633,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0015"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08231-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08231-02",
+        "municipality_code": "08231",
+        "municipality_name": "桜川市",
+        "name": "桜川市真壁伝承館図書室",
+        "name_en": "Sakuragawa City Makabe Denshokan Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県桜川市真壁町真壁198 真壁伝承館内",
+        "phone": "0296-23-8525",
+        "collection_count": 38477,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0015"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08232-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08232-01",
+        "municipality_code": "08232",
+        "municipality_name": "神栖市",
+        "name": "神栖市立中央図書館",
+        "name_en": "Kamisu City Central Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県神栖市大野原4-8-1",
+        "phone": "0299-92-3746",
+        "collection_count": 403153,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08232-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08232-02",
+        "municipality_code": "08232",
+        "municipality_name": "神栖市",
+        "name": "神栖市立うずも図書館",
+        "name_en": "Kamisu City Uzumo Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県神栖市知手中央7-1-6 神栖市立うずもコミュニティーセンター内",
+        "phone": "0299-90-5302",
+        "collection_count": 79142,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08233-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08233-01",
+        "municipality_code": "08233",
+        "municipality_name": "行方市",
+        "name": "行方市立図書館",
+        "name_en": "Namegata City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県行方市玉造乙1175",
+        "phone": "0299-55-1495",
+        "collection_count": 70810,
+        "statistics_scope": "facility_level",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0011",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08233-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08233-02",
+        "municipality_code": "08233",
+        "municipality_name": "行方市",
+        "name": "行方市麻生公民館図書室",
+        "name_en": "Namegata City Aso Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県行方市麻生1229-8 麻生公民館内",
+        "phone": "0299-72-1593",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08233-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08233-03",
+        "municipality_code": "08233",
+        "municipality_name": "行方市",
+        "name": "行方市北浦公民館図書室",
+        "name_en": "Namegata City Kitaura Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県行方市山田2175 北浦公民館内",
+        "phone": "0291-35-2410",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0011"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08234-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08234-01",
+        "municipality_code": "08234",
+        "municipality_name": "鉾田市",
+        "name": "鉾田市立図書館",
+        "name_en": "Hokota City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県鉾田市鉾田1444-1",
+        "phone": "0291-33-2020",
+        "collection_count": 92315,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0012",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08234-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08234-02",
+        "municipality_code": "08234",
+        "municipality_name": "鉾田市",
+        "name": "鉾田市立図書館 旭文庫",
+        "name_en": "Hokota City Library Asahi Bunko",
+        "category": "Cat B",
+        "legal_status": "branch_collection",
+        "address": "茨城県鉾田市上沢1007-4 旭公民館内",
+        "phone": "0291-37-1111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0012"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08234-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08234-03",
+        "municipality_code": "08234",
+        "municipality_name": "鉾田市",
+        "name": "鉾田市立図書館 大洋文庫",
+        "name_en": "Hokota City Library Taiyo Bunko",
+        "category": "Cat B",
+        "legal_status": "branch_collection",
+        "address": "茨城県鉾田市汲上2603 大洋公民館内",
+        "phone": "0291-39-3311",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0012"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08235-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08235-01",
+        "municipality_code": "08235",
+        "municipality_name": "つくばみらい市",
+        "name": "つくばみらい市立図書館",
+        "name_en": "Tsukubamirai City Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県つくばみらい市福田623",
+        "phone": "0297-58-3710",
+        "collection_count": 214718,
+        "statistics_scope": "system_aggregate",
+        "verification_status": "verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0013",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08235-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08235-02",
+        "municipality_code": "08235",
+        "municipality_name": "つくばみらい市",
+        "name": "つくばみらい市立図書館 小絹分館",
+        "name_en": "Tsukubamirai City Library Kokinu Branch",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県つくばみらい市小絹848 小絹コミュニティセンター内",
+        "phone": "0297-52-5111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0013",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08235-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08235-03",
+        "municipality_code": "08235",
+        "municipality_name": "つくばみらい市",
+        "name": "つくばみらい市立図書館 みらい平分館",
+        "name_en": "Tsukubamirai City Library Miraidaira Branch",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県つくばみらい市紫峰ヶ丘4-4-1 みらい平コミュニティセンター内",
+        "phone": "0297-58-2111",
+        "collection_count": null,
+        "statistics_scope": "not_applicable",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0013",
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08236-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08236-01",
+        "municipality_code": "08236",
+        "municipality_name": "小美玉市",
+        "name": "小美玉市小川図書館",
+        "name_en": "Omitama City Ogawa Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県小美玉市小川1664-2 小美玉市小川資料館併設",
+        "phone": "0299-58-5828",
+        "collection_count": 80971,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08236-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08236-02",
+        "municipality_code": "08236",
+        "municipality_name": "小美玉市",
+        "name": "小美玉市玉里図書館",
+        "name_en": "Omitama City Tamasato Library",
+        "category": "Cat A",
+        "legal_status": "branch_library",
+        "address": "茨城県小美玉市高崎291-3 玉里公民館・史料館・文化ホール併設",
+        "phone": "0299-26-9111",
+        "collection_count": 47277,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08236-03",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08236-03",
+        "municipality_code": "08236",
+        "municipality_name": "小美玉市",
+        "name": "小美玉市美野里公民館図書室",
+        "name_en": "Omitama City Minori Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県小美玉市堅倉835 美野里公民館内",
+        "phone": "0299-48-1110",
+        "collection_count": 28350,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08309-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08309-01",
+        "municipality_code": "08309",
+        "municipality_name": "茨城町",
+        "name": "茨城町立図書館",
+        "name_en": "Ibaraki Town Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県東茨城郡茨城町小堤1037-1 茨城町総合福祉センター「ゆうゆう館」併設",
+        "phone": "029-240-7131",
+        "collection_count": 144076,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08310-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08310-01",
+        "municipality_code": "08310",
+        "municipality_name": "大洗町",
+        "name": "大洗町中央公民館図書室",
+        "name_en": "Oarai Town Central Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県東茨城郡大洗町磯浜町6881-88 漁村センター・町民会館併設",
+        "phone": "029-267-0230",
+        "collection_count": 27800,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08311-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08311-01",
+        "municipality_code": "08311",
+        "municipality_name": "城里町",
+        "name": "城里町立桂図書館",
+        "name_en": "Shirosato Town Katsura Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県東茨城郡城里町阿波山173-2 町立郷土資料館・城里町役場桂支所併設",
+        "phone": "029-289-4946",
+        "collection_count": 104267,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08311-02",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08311-02",
+        "municipality_code": "08311",
+        "municipality_name": "城里町",
+        "name": "コミュニティセンター城里図書室",
+        "name_en": "Community Center Shirosato Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県東茨城郡城里町石塚1428-1 城里町教育委員会併設",
+        "phone": "029-288-6100",
+        "collection_count": 32860,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08341-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08341-01",
+        "municipality_code": "08341",
+        "municipality_name": "大子町",
+        "name": "大子町立中央公民館別館図書室（図書館「プチ・ソフィア」）",
+        "name_en": "Daigo Town Central Community Center Annex Library (Petit Sophia)",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県久慈郡大子町大字池田2716-2",
+        "phone": "0295-72-6123",
+        "collection_count": 49885,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014",
+          "SRC-0018"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08342-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08342-01",
+        "municipality_code": "08342",
+        "municipality_name": "東海村",
+        "name": "東海村立図書館",
+        "name_en": "Tokai Village Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県那珂郡東海村船場774-5 教育支援センター併設",
+        "phone": "029-282-3435",
+        "collection_count": 272193,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08442-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08442-01",
+        "municipality_code": "08442",
+        "municipality_name": "阿見町",
+        "name": "阿見町立図書館",
+        "name_en": "Ami Town Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県稲敷郡阿見町若栗1838-24",
+        "phone": "029-887-6331",
+        "collection_count": 160453,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08443-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08443-01",
+        "municipality_code": "08443",
+        "municipality_name": "河内町",
+        "name": "河内町中央公民館図書室",
+        "name_en": "Kawachi Town Central Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県稲敷郡河内町長竿3693-2",
+        "phone": "0297-84-2843",
+        "collection_count": 12651,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08447-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08447-01",
+        "municipality_code": "08447",
+        "municipality_name": "美浦村",
+        "name": "美浦村中央公民館図書室",
+        "name_en": "Miho Village Central Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県稲敷郡美浦村受領1460-1 子育て支援センター・児童クラブ併設",
+        "phone": "029-885-8442",
+        "collection_count": 57537,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08521-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08521-01",
+        "municipality_code": "08521",
+        "municipality_name": "八千代町",
+        "name": "八千代町立図書館",
+        "name_en": "Yachiyo Town Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県結城郡八千代町菅谷561-1",
+        "phone": "0296-48-4646",
+        "collection_count": 173001,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08542-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08542-01",
+        "municipality_code": "08542",
+        "municipality_name": "五霞町",
+        "name": "五霞町中央公民館図書室",
+        "name_en": "Goka Town Central Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県猿島郡五霞町小福田148-1",
+        "phone": "0280-84-1460",
+        "collection_count": 18381,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08546-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08546-01",
+        "municipality_code": "08546",
+        "municipality_name": "境町",
+        "name": "境町中央公民館図書室",
+        "name_en": "Sakai Town Central Community Center Reading Room",
+        "category": "Cat C",
+        "legal_status": "community_center_library",
+        "address": "茨城県猿島郡境町395-1",
+        "phone": "0280-81-1340",
+        "collection_count": 32832,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IB-08564-01",
+      "geometry": null,
+      "properties": {
+        "facility_id": "IB-08564-01",
+        "municipality_code": "08564",
+        "municipality_name": "利根町",
+        "name": "利根町図書館",
+        "name_en": "Tone Town Library",
+        "category": "Cat A",
+        "legal_status": "central_library",
+        "address": "茨城県北相馬郡利根町下曽根278-1",
+        "phone": "0297-68-8868",
+        "collection_count": 179370,
+        "statistics_scope": "facility_level",
+        "verification_status": "partially_verified",
+        "coordinate_verified": false,
+        "sources": [
+          "SRC-0014"
+        ]
+      }
+    }
+  ]
+}

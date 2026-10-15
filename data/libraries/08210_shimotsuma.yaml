@@ -1,10 +1,13 @@
 municipality_code: "08210"
 municipality_name: "下妻市"
+municipality_name_en: "Shimotsuma City"
 audit_status: "IN_PROGRESS"
-notes: "下妻市立図書館網羅確認。公民館図書室調査中"
+notes: "下妻市立図書館の基本情報・統計をSRC-0014で照合済み。旧千代川村地区等の公民館図書室および条例は調査継続中。"
+uninvestigated_or_excluded_facilities: "千代川公民館図書室等の有無は未調査"
 facilities:
   - facility_id: "IB-08210-01"
     name: "下妻市立図書館"
+    name_en: "Shimotsuma City Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "304-0055"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 226118
+      annual_loans: null
+      breakdown:
+        general: 159406
+        children: 53269
+        local: 7382
+        av: 6061
     history:
       - date: "2001-10"
         event: "創設"
@@ -28,7 +37,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

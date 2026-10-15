@@ -1,10 +1,13 @@
 municipality_code: "08211"
 municipality_name: "常総市"
+municipality_name_en: "Joso City"
 audit_status: "IN_PROGRESS"
-notes: "常総市立図書館および常総市地域交流センター図書室の2拠点網羅確認"
+notes: "常総市立図書館および常総市地域交流センター図書室（旧石下町地区）の2拠点を収録。地域交流センター図書室の所蔵資料数をSRC-0014 p.41に基づき正確な21,876冊/点（貸出数2,423冊/点）に修正し、閲覧席数（原資料記載なし）をnullに修正済み。"
+uninvestigated_or_excluded_facilities: "その他の公民館図書コーナーは未調査"
 facilities:
   - facility_id: "IB-08211-01"
     name: "常総市立図書館"
+    name_en: "Joso City Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "303-0034"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 159194
+      annual_loans: null
+      breakdown:
+        general: 96328
+        children: 41259
+        local: 8330
+        av: 13277
     history:
       - date: "1981-04"
         event: "創設"
@@ -28,12 +37,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08211-02"
     name: "常総市地域交流センター図書室"
+    name_en: "Joso City Regional Exchange Center Reading Room"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "300-2706"
@@ -44,12 +61,18 @@ facilities:
     opened_year_month: "1992-10"
     building_structure: "鉄筋コンクリート造 地下1階地上7階"
     floor_area_m2: 159.72
-    reading_seats: 6
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 8728
+      collection_count: 21876
+      annual_loans: 2423
+      breakdown:
+        general: 11562
+        children: 9829
+        local: 434
+        av: 51
     history:
       - date: "1992-10"
         event: "創設"
@@ -57,7 +80,15 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.40-42に基づき所蔵数21,876・貸出数2,423に修正、未記載の閲覧席数をnullに修正"
+      unverified_fields:
+        - "ordinance_article"
+        - "reading_seats"

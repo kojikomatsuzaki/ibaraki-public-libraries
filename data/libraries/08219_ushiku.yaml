@@ -1,10 +1,13 @@
 municipality_code: "08219"
 municipality_name: "牛久市"
+municipality_name_en: "Ushiku City"
 audit_status: "IN_PROGRESS"
-notes: "牛久市立中央図書館網羅確認。行政窓口図書取次調査中"
+notes: "牛久市立中央図書館の基本情報・統計をSRC-0014で照合済み。エスカード分室等の有無および設置条例は調査継続中。"
+uninvestigated_or_excluded_facilities: "エスカード牛久や奥野生涯学習センター等の図書窓口は未調査"
 facilities:
   - facility_id: "IB-08219-01"
     name: "牛久市立中央図書館"
+    name_en: "Ushiku City Central Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "300-1211"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 312013
+      annual_loans: null
+      breakdown:
+        general: 229510
+        children: 74669
+        local_in_parens: 10770
+        av: 7834
     history:
       - date: "1979-06"
         event: "創設"
@@ -28,7 +37,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

@@ -1,29 +1,57 @@
 municipality_code: "08229"
 municipality_name: "稲敷市"
+municipality_name_en: "Inashiki City"
 audit_status: "IN_PROGRESS"
-notes: "稲敷市立図書館および3公民館図書室（規程第2条）の網羅を確認。図書室別統計の抽出が継続中"
+notes: "稲敷市立図書館(SRC-0010)および公民館図書室管理運営規程に基づく3公民館図書室（江戸崎中央・新利根・桜川）を収録。本館の開館年月(1993-07)・延面積(1,585.00㎡)・席数(125席)をSRC-0014 p.13に基づき修正。"
+uninvestigated_or_excluded_facilities: "3公民館図書室の個別面積・蔵書統計は未確認"
 facilities:
   - facility_id: "IB-08229-01"
     name: "稲敷市立図書館"
+    name_en: "Inashiki City Library"
+    category: "Cat A"
     legal_status: "central_library"
     postal_code: "300-0736"
-    address: "稲敷市八千石18-1"
+    address: "稲敷市八千石18-1 稲敷市立歴史民俗資料館併設"
     phone: "0299-79-3111"
     fax: "0299-79-3113"
-    established_year_month: "1996-04"
-    opened_year_month: "1996-04"
-    building_structure: "鉄骨造 地上1階"
-    floor_area_m2: 1724.00
-    reading_seats: 58
-    collection_count: 157758
+    established_year_month: "1993-07"
+    opened_year_month: "1993-07"
+    building_structure: "鉄筋コンクリート造 地上2階建て"
+    floor_area_m2: 1585.0
+    reading_seats: 125
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 157758
+      annual_loans: null
+      breakdown:
+        general: 90933
+        children: 52371
+        local: 4430
+        av: 10024
+    history:
+      - date: "1993-07"
+        event: "創設"
+      - date: "1993-07"
+        event: "現館開館"
     sources:
       - "SRC-0010"
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8), SRC-0010"
+      legal_basis: "SRC-0010 (第1条)"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0010およびSRC-0014 p.13, p.21に基づき全項目照合・修正完了"
+      unverified_fields: []
   - facility_id: "IB-08229-02"
     name: "稲敷市江戸崎中央公民館図書室"
+    name_en: "Inashiki City Edosaki Central Community Center Reading Room"
+    category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "300-0504"
     address: "稲敷市江戸崎甲2148-2 江戸崎中央公民館内"
@@ -34,14 +62,35 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0010"
+    field_sources:
+      identity_and_location: "SRC-0010"
+      legal_basis: "SRC-0010 (公民館図書室管理運営規程)"
+      building_and_capacity: "unverified"
+      statistics: "unverified"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "規程により設置・所在地を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08229-03"
     name: "稲敷市新利根公民館図書室"
+    name_en: "Inashiki City Shintone Community Center Reading Room"
+    category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "300-1412"
     address: "稲敷市柴崎7430 新利根公民館内"
@@ -52,14 +101,35 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0010"
+    field_sources:
+      identity_and_location: "SRC-0010"
+      legal_basis: "SRC-0010 (公民館図書室管理運営規程)"
+      building_and_capacity: "unverified"
+      statistics: "unverified"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "規程により設置・所在地を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08229-04"
     name: "稲敷市桜川地区センター図書室"
+    name_en: "Inashiki City Sakuragawa District Center Reading Room"
+    category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "300-0623"
     address: "稲敷市須賀津208 桜川地区センター内"
@@ -70,9 +140,28 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0010"
+    field_sources:
+      identity_and_location: "SRC-0010"
+      legal_basis: "SRC-0010 (公民館図書室管理運営規程)"
+      building_and_capacity: "unverified"
+      statistics: "unverified"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "規程により設置・所在地を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"

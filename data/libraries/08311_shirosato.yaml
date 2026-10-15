@@ -1,14 +1,17 @@
 municipality_code: "08311"
 municipality_name: "城里町"
+municipality_name_en: "Shirosato Town"
 audit_status: "IN_PROGRESS"
-notes: "城里町立桂図書館およびコミュニティセンター城里図書室の2拠点網羅確認"
+notes: "城里町立桂図書館およびコミュニティセンター城里図書室の2拠点を収録。独立監査によりコミュニティセンター城里の所蔵数をSRC-0014 p.41の正確な32,860冊/点（貸出14,712冊/点）へ修正し、閲覧席数をnullに修正済み。"
+uninvestigated_or_excluded_facilities: "七会地区（旧七会村）の公民館図書コーナー有無は未調査"
 facilities:
   - facility_id: "IB-08311-01"
     name: "城里町立桂図書館"
+    name_en: "Shirosato Town Katsura Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "311-4344"
-    address: "東茨城郡城里町阿波山173-2 役場桂支所併設"
+    address: "東茨城郡城里町阿波山173-2 町立郷土資料館・城里町役場桂支所併設"
     phone: "029-289-4946"
     fax: "029-289-4270"
     established_year_month: "1998-07"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 104267
+      annual_loans: null
+      breakdown:
+        general: 70244
+        children: 26294
+        local: 5748
+        av: 6116
     history:
       - date: "1998-07"
         event: "創設"
@@ -28,28 +37,42 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08311-02"
     name: "コミュニティセンター城里図書室"
+    name_en: "Community Center Shirosato Reading Room"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "311-4303"
-    address: "東茨城郡城里町石塚1428-1"
+    address: "東茨城郡城里町石塚1428-1 城里町教育委員会併設"
     phone: "029-288-6100"
     fax: "029-288-6130"
     established_year_month: "1992-03"
     opened_year_month: "1992-03"
     building_structure: "鉄筋コンクリート造 地上3階"
     floor_area_m2: 413.0
-    reading_seats: 17
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 14712
+      collection_count: 32860
+      annual_loans: 14712
+      breakdown:
+        general: 22239
+        children: 9889
+        local: 368
+        av: 364
     history:
       - date: "1992-03"
         event: "創設"
@@ -57,7 +80,15 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.40-42に基づき所蔵数32,860・貸出数14,712に修正、未記載の閲覧席数をnullに修正"
+      unverified_fields:
+        - "ordinance_article"
+        - "reading_seats"

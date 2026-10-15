@@ -1,14 +1,17 @@
 municipality_code: "08231"
 municipality_name: "桜川市"
-audit_status: "IN_PROGRESS"
-notes: "桜川市立図書館（令和7年2月新設開館）および真壁伝承館図書室の2拠点網羅確認"
+municipality_name_en: "Sakuragawa City"
+audit_status: "AUDITED"
+notes: "桜川市立図書館条例(SRC-0015)およびSRC-0014に基づき、桜川市立図書館（令和7年2月新規開館、東桜川1-21-1）および真壁伝承館図書室の2拠点を完全照合。独立監査により桜川市立図書館の所蔵数をSRC-0014 p.21の正確な66,633冊（一般45,711＋児童20,922）に修正し、真壁伝承館の所蔵数をSRC-0014 p.41の正確な38,477冊/点（貸出31,068冊/点）に修正完了。"
+uninvestigated_or_excluded_facilities: "大和地区等の公民館図書コーナーは条例第5条第4号の連携施設対象（主要常設館は上記2拠点で網羅）"
 facilities:
   - facility_id: "IB-08231-01"
     name: "桜川市立図書館"
+    name_en: "Sakuragawa City Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "309-1214"
-    address: "桜川市東桜川1-21-1 桜川市生涯学習センター内"
+    address: "桜川市東桜川1-21-1 桜川市生涯学習センター（さくらす）内"
     phone: "0296-71-7707"
     fax: "0296-71-7708"
     established_year_month: "2025-02"
@@ -20,7 +23,12 @@ facilities:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 75000
+      collection_count: 66633
+      annual_loans: null
+      breakdown:
+        general: 45711
+        children: 20922
+        av: 0
     history:
       - date: "2025-02"
         event: "創設"
@@ -28,12 +36,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0015"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8), SRC-0015 (第2条)"
+      legal_basis: "SRC-0015 (第2条)"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "桜川市立図書館条例(SRC-0015)およびSRC-0014 p.13, p.21により所蔵数66,633冊を含む全項目を完全照合済み"
+      unverified_fields: []
   - facility_id: "IB-08231-02"
     name: "桜川市真壁伝承館図書室"
+    name_en: "Sakuragawa City Makabe Denshokan Reading Room"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "300-4408"
@@ -44,12 +60,18 @@ facilities:
     opened_year_month: "2011-09"
     building_structure: "鉄板パネル付鉄骨ラーメン造"
     floor_area_m2: 635.0
-    reading_seats: 24
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 31068
+      collection_count: 38477
+      annual_loans: 31068
+      breakdown:
+        general: 20630
+        children: 16314
+        local: 1119
+        av: 414
     history:
       - date: "2011-07"
         event: "創設"
@@ -57,7 +79,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0015"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9)"
+      legal_basis: "SRC-0015 (第5条第4号連携図書施設)"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.40-42に基づき所蔵数38,477冊/点・貸出数31,068冊/点に修正・完全照合済み"
+      unverified_fields: []

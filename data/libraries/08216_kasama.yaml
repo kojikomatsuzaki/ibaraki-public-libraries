@@ -1,10 +1,13 @@
 municipality_code: "08216"
 municipality_name: "笠間市"
+municipality_name_en: "Kasama City"
 audit_status: "IN_PROGRESS"
-notes: "笠間図書館・友部図書館・岩間図書館の3館体制網羅確認"
+notes: "笠間図書館・友部図書館・岩間図書館の3館体制および単館別所蔵統計をSRC-0014で照合済み。設置条例の照合が継続中。"
+uninvestigated_or_excluded_facilities: "公民館図書コーナー（かつらぎ等）の有無は未調査。なお私立笠間稲荷図書館は公立対象外として除外"
 facilities:
   - facility_id: "IB-08216-01"
     name: "笠間市立笠間図書館"
+    name_en: "Kasama City Kasama Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "309-1613"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 260291
+      annual_loans: null
+      breakdown:
+        general: 175476
+        children: 48800
+        local: 14957
+        av: 21058
     history:
       - date: "2004-04"
         event: "創設"
@@ -28,12 +37,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08216-02"
     name: "笠間市立友部図書館"
+    name_en: "Kasama City Tomobe Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "309-1722"
@@ -50,6 +67,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 260890
+      annual_loans: null
+      breakdown:
+        general: 181667
+        children: 48109
+        local: 15002
+        av: 16112
     history:
       - date: "1994-04"
         event: "創設"
@@ -57,12 +80,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08216-03"
     name: "笠間市立岩間図書館"
+    name_en: "Kasama City Iwama Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "319-0294"
@@ -79,6 +110,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 90500
+      annual_loans: null
+      breakdown:
+        general: 55092
+        children: 26035
+        local: 2424
+        av: 6949
     history:
       - date: "1985-07"
         event: "創設"
@@ -86,7 +123,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

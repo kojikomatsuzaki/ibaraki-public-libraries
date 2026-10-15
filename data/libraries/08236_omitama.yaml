@@ -1,10 +1,13 @@
 municipality_code: "08236"
 municipality_name: "小美玉市"
+municipality_name_en: "Omitama City"
 audit_status: "IN_PROGRESS"
-notes: "小川図書館・玉里図書館・美野里公民館図書室の3拠点網羅確認"
+notes: "小川図書館・玉里図書館・美野里公民館図書室の3拠点を収録。独立監査によりSRC-0014 p.21およびp.41の正確な所蔵数（小川：80,971冊、玉里：47,277冊、美野里公民館：28,350冊/点）へ修正し、美野里公民館の閲覧席数（原資料未記載）をnullに修正済み。"
+uninvestigated_or_excluded_facilities: "生涯学習センターコスモス等の図書室有無および設置条例条文は調査継続中"
 facilities:
   - facility_id: "IB-08236-01"
     name: "小美玉市小川図書館"
+    name_en: "Omitama City Ogawa Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "311-3423"
@@ -20,7 +23,14 @@ facilities:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 47634
+      collection_count: 80971
+      annual_loans: null
+      breakdown:
+        general: 47634
+        children: 27390
+        mobile: 2972
+        local_in_parens: 1235
+        av: 2925
     history:
       - date: "1991-12"
         event: "創設"
@@ -28,16 +38,24 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.21に基づき所蔵数を正確な80,971冊に修正（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08236-02"
     name: "小美玉市玉里図書館"
+    name_en: "Omitama City Tamasato Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "311-3433"
-    address: "小美玉市高崎291-3 玉里公民館・文化ホール併設"
+    address: "小美玉市高崎291-3 玉里公民館・史料館・文化ホール併設"
     phone: "0299-26-9111"
     fax: "0299-26-9261"
     established_year_month: "1994-07"
@@ -49,7 +67,13 @@ facilities:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 78914
+      collection_count: 47277
+      annual_loans: null
+      breakdown:
+        general: 30461
+        children: 15033
+        local_in_parens: 1477
+        av: 1783
     history:
       - date: "1994-07"
         event: "創設"
@@ -57,12 +81,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.21に基づき所蔵数を正確な47,277冊に修正（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08236-03"
     name: "小美玉市美野里公民館図書室"
+    name_en: "Omitama City Minori Community Center Reading Room"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "319-0192"
@@ -73,12 +105,18 @@ facilities:
     opened_year_month: "1980-09"
     building_structure: "鉄筋造 地上2階"
     floor_area_m2: 114.0
-    reading_seats: 6
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 22038
+      collection_count: 28350
+      annual_loans: 22038
+      breakdown:
+        general: 19420
+        children: 8664
+        local: 114
+        av: 144
     history:
       - date: "1980-07"
         event: "創設"
@@ -86,7 +124,15 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.41-42に基づき所蔵数28,350・貸出数22,038に修正、未記載の閲覧席数をnullに修正"
+      unverified_fields:
+        - "ordinance_article"
+        - "reading_seats"

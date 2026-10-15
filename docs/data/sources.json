@@ -1,0 +1,308 @@
+{
+  "sources": [
+    {
+      "source_id": "SRC-0001",
+      "ref_number": 1,
+      "title_ja": "分館案内",
+      "creator": "土浦市立図書館",
+      "publication_date": null,
+      "last_modified": null,
+      "url": "https://www.t-lib.jp/facility/annex.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "official_website",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:20:03Z",
+        "scope": "三中地区分館、都和分館、神立地区分館、新治地区分館の開館時間・休館日・所在地・連絡先"
+      }
+    },
+    {
+      "source_id": "SRC-0002",
+      "ref_number": 2,
+      "title_ja": "土浦市立図書館条例施行規則",
+      "creator": "土浦市教育委員会",
+      "publication_date": "1985-04-01",
+      "last_modified": null,
+      "url": "https://www.t-lib.jp/lib/files/libimg1686132626.pdf",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:20:03Z",
+        "scope": "第3条における分館設置規定（三中地区分館、都和分館、神立地区分館、新治地区分館の名称及び位置）"
+      }
+    },
+    {
+      "source_id": "SRC-0003",
+      "ref_number": 3,
+      "title_ja": "土浦市立図書館要覧 令和6年度",
+      "creator": "土浦市立図書館",
+      "publication_date": "2024-07-01",
+      "last_modified": null,
+      "url": "https://www.t-lib.jp/lib/files/libimg1721635552.pdf",
+      "accessed_date": "2026-10-15",
+      "source_type": "official_yearbook",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:20:03Z",
+        "scope": "施設概要、分館の業務所掌、利用統計（令和5年度実績）"
+      }
+    },
+    {
+      "source_id": "SRC-0004",
+      "ref_number": 4,
+      "title_ja": "石岡市立中央図書館条例",
+      "creator": "石岡市",
+      "publication_date": "2005-10-01",
+      "last_modified": "2021-12-16",
+      "url": "https://www1.g-reiki.net/isioka.city/reiki_honbun/r310RG00000322.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "ordinance",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:20:03Z",
+        "scope": "第2条（中央図書館の位置）、第3条（分館：石岡市郷の本棚やさと図書館の位置、配本所規定）"
+      }
+    },
+    {
+      "source_id": "SRC-0005",
+      "ref_number": 5,
+      "title_ja": "鹿嶋市立図書館管理運営規則",
+      "creator": "鹿嶋市教育委員会",
+      "publication_date": "1995-09-01",
+      "last_modified": null,
+      "url": "https://city.kashima.ibaraki.jp/13reiki/reiki_honbun/e021RG00000244.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:35:10Z",
+        "scope": "第2条における図書館の名称及び位置規定（鹿嶋市立中央図書館：鹿嶋市大字宮中2398番地1、鹿嶋市立中央図書館大野分館：鹿嶋市大字津賀1919番地1）"
+      }
+    },
+    {
+      "source_id": "SRC-0006",
+      "ref_number": 6,
+      "title_ja": "つくば市立図書館条例",
+      "creator": "つくば市",
+      "publication_date": "1987-11-30",
+      "last_modified": "2024-12-27",
+      "url": "https://www1.g-reiki.net/tsukuba/reiki_honbun/e019RG00001395.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "ordinance",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:35:10Z",
+        "scope": "第2条第1項（中央図書館：吾妻二丁目8番地）及び第2項（分室：谷田部・筑波・小野川・茎崎交流センター内図書室）"
+      }
+    },
+    {
+      "source_id": "SRC-0007",
+      "ref_number": 7,
+      "title_ja": "守谷市立図書館等管理運営規則",
+      "creator": "守谷市教育委員会",
+      "publication_date": "1995-05-18",
+      "last_modified": null,
+      "url": "https://www1.g-reiki.net/city.moriya/reiki_honbun/e084RG00000253.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:35:10Z",
+        "scope": "第1条（守谷市立図書館）、第4条（分室：守谷市中央公民館図書室、守谷市郷州公民館図書室、守谷市高野公民館図書室、守谷市北守谷公民館図書室の位置づけ）"
+      }
+    },
+    {
+      "source_id": "SRC-0008",
+      "ref_number": 8,
+      "title_ja": "常陸太田市立図書館の設置及び管理に関する条例施行規則",
+      "creator": "常陸太田市教育委員会",
+      "publication_date": "2004-12-01",
+      "last_modified": null,
+      "url": "https://www.city.hitachiota.ibaraki.jp/data/reiki/reiki_honbun/e012RG00000886.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:35:10Z",
+        "scope": "本館及び金砂郷分室・水府分室・里美分室の利用管理規定"
+      }
+    },
+    {
+      "source_id": "SRC-0009",
+      "ref_number": 9,
+      "title_ja": "坂東市立図書館の設置及び管理等に関する条例",
+      "creator": "坂東市",
+      "publication_date": "2005-03-22",
+      "last_modified": null,
+      "url": "https://www.city.bando.lg.jp/data/reiki/reiki_honbun/r155RG00000270.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "ordinance",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:38:20Z",
+        "scope": "第2条（設置施設：坂東市立岩井図書館［坂東市岩井5082番地］、坂東市立猿島図書館［坂東市山2726番地］）"
+      }
+    },
+    {
+      "source_id": "SRC-0010",
+      "ref_number": 10,
+      "title_ja": "稲敷市立図書館条例",
+      "creator": "稲敷市",
+      "publication_date": "2022-03-29",
+      "last_modified": null,
+      "url": "https://www.city.inashiki.lg.jp/reiki_int/reiki_honbun/r168RG00001273.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "ordinance",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:38:20Z",
+        "scope": "稲敷市立図書館（本館）の設置及び管理運営。なお公民館図書室は稲敷市公民館図書室管理運営規程（令和7年4月施行）に準拠"
+      }
+    },
+    {
+      "source_id": "SRC-0011",
+      "ref_number": 11,
+      "title_ja": "行方市立図書館条例施行規則",
+      "creator": "行方市教育委員会",
+      "publication_date": "2005-09-02",
+      "last_modified": null,
+      "url": "https://www.city.namegata.ibaraki.jp/gyousei/reiki/reiki_int/reiki_honbun/r228RG00000269.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:38:20Z",
+        "scope": "行方市立図書館の管理及び運営規程。麻生公民館図書室・北浦公民館図書室との相互連携"
+      }
+    },
+    {
+      "source_id": "SRC-0012",
+      "ref_number": 12,
+      "title_ja": "鉾田市立図書館管理運営規則",
+      "creator": "鉾田市教育委員会",
+      "publication_date": "2005-10-11",
+      "last_modified": null,
+      "url": "https://www.city.hokota.lg.jp/reiki_int/reiki_honbun/r229RG00000971.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:38:20Z",
+        "scope": "本館及び文庫（旭公民館内旭文庫、大洋公民館内大洋文庫）の設置及び管理運営"
+      }
+    },
+    {
+      "source_id": "SRC-0013",
+      "ref_number": 13,
+      "title_ja": "つくばみらい市立図書館条例",
+      "creator": "つくばみらい市",
+      "publication_date": "2006-03-27",
+      "last_modified": "2020-04-01",
+      "url": "https://www.city.tsukubamirai.lg.jp/reiki_int/reiki_honbun/r339RG00000447.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "ordinance",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:38:20Z",
+        "scope": "第2条における設置施設（本館：つくばみらい市福田623番地、小絹分館：つくばみらい市小絹848番地、みらい平分館：つくばみらい市紫峰ヶ丘四丁目4番地1）"
+      }
+    },
+    {
+      "source_id": "SRC-0014",
+      "ref_number": 14,
+      "title_ja": "令和７年度茨城の図書館",
+      "creator": "茨城県図書館協会",
+      "publication_date": "2025-07-01",
+      "last_modified": null,
+      "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+      "accessed_date": "2026-10-15",
+      "source_type": "official_yearbook",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:30:00Z",
+        "scope": "茨城県内全公立図書館の名簿（所在地・電話・FAX等）及び施設・閲覧席数・所蔵資料数・登録者数・貸出数等の総合統計（令和7年3月31日基準、令和6年度実績）"
+      }
+    },
+    {
+      "source_id": "SRC-0015",
+      "ref_number": 15,
+      "title_ja": "桜川市立図書館条例",
+      "creator": "桜川市",
+      "publication_date": "2023-06-21",
+      "last_modified": "2024-10-01",
+      "url": "https://www.city.sakuragawa.lg.jp/gyousei/reiki_int/reiki_honbun/r211RG00001390.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "ordinance",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T08:41:00Z",
+        "scope": "第1条（図書館法第10条に基づく設置）、第2条（名称：桜川市立図書館、位置：桜川市東桜川一丁目21番地1）、第5条第4号（市内図書施設等との連携）"
+      }
+    },
+    {
+      "source_id": "SRC-0016",
+      "ref_number": 16,
+      "title_ja": "利用案内 | かすみがうら市公式ホームページ",
+      "creator": "かすみがうら市立図書館",
+      "publication_date": null,
+      "last_modified": "2026-10-13",
+      "url": "https://www.city.kasumigaura.lg.jp/sp/page/page003024.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "official_website",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T08:41:00Z",
+        "scope": "かすみがうら市立図書館本館（深谷3719-1）、千代田分館（千代田コミュニティセンター・旧志筑小学校）、下稲吉コミュニティセンター（中央出張所・旧働く女性の家）の予約受取・サービス拠点構成"
+      }
+    },
+    {
+      "source_id": "SRC-0017",
+      "ref_number": 17,
+      "title_ja": "図書館・図書室／古河市公式ホームページ",
+      "creator": "古河市",
+      "publication_date": null,
+      "last_modified": null,
+      "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/tosyo/index.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "official_website",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T08:41:00Z",
+        "scope": "古河図書館・燦SUN館（三和図書館）の2館、および社会教育施設課所管の5図書室（とねミドリ館、つつみ館、古河断熱中田公民館、ユーセンターKI総和、総和地域交流センター）の設置構成"
+      }
+    },
+    {
+      "source_id": "SRC-0018",
+      "ref_number": 18,
+      "title_ja": "図書館「プチ・ソフィア」 | 大子町公式ホームページ",
+      "creator": "大子町教育委員会",
+      "publication_date": null,
+      "last_modified": null,
+      "url": "https://www.town.daigo.ibaraki.jp/sp/page/page006193.html",
+      "accessed_date": "2026-10-15",
+      "source_type": "official_website",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T08:41:00Z",
+        "scope": "大子町立中央公民館別館図書室（愛称：図書館「プチ・ソフィア」、所在地：大子町大字池田2716-2、平成17年4月開館、開館時間・休館日）"
+      }
+    },
+    {
+      "source_id": "SRC-0019",
+      "ref_number": 19,
+      "title_ja": "水戸市立図書館条例施行規則",
+      "creator": "水戸市教育委員会",
+      "publication_date": null,
+      "last_modified": null,
+      "url": "https://www.city.mito.lg.jp/uploaded/attachment/57414.pdf",
+      "accessed_date": "2026-10-15",
+      "source_type": "regulation",
+      "verification": {
+        "status": "verified",
+        "verified_at": "2026-10-15T05:20:03Z",
+        "scope": "水戸市立中央図書館および東部・西部・見和・常澄・内原の5地区館の設置・管理規定"
+      }
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 municipality_code: "08214"
 municipality_name: "高萩市"
+municipality_name_en: "Takahagi City"
 audit_status: "IN_PROGRESS"
-notes: "高萩市立図書館（歴史民俗資料館併設）網羅確認"
+notes: "高萩市立図書館の基本情報・統計をSRC-0014で照合済み。設置条例の照合が継続中。"
+uninvestigated_or_excluded_facilities: "公民館図書コーナーの有無は未調査"
 facilities:
   - facility_id: "IB-08214-01"
     name: "高萩市立図書館"
+    name_en: "Takahagi City Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "318-0034"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 117816
+      annual_loans: null
+      breakdown:
+        general: 79684
+        children: 31319
+        local: 6170
+        av: 643
     history:
       - date: "1983-12"
         event: "創設"
@@ -28,7 +37,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

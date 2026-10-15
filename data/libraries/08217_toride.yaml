@@ -1,10 +1,13 @@
 municipality_code: "08217"
 municipality_name: "取手市"
+municipality_name_en: "Toride City"
 audit_status: "IN_PROGRESS"
-notes: "取手図書館・ふじしろ図書館の2館体制網羅確認"
+notes: "取手図書館・ふじしろ図書館（愛称：常陽建設ふじしろ図書館）の2館体制および単館別所蔵統計をSRC-0014で照合済み。公民館図書室・駅前窓口等は調査継続中。"
+uninvestigated_or_excluded_facilities: "公民館図書室・取手ウェルネスプラザ等の予約受取窓口は未調査"
 facilities:
   - facility_id: "IB-08217-01"
     name: "取手市立取手図書館"
+    name_en: "Toride City Toride Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "302-0004"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 225017
+      annual_loans: null
+      breakdown:
+        general: 159256
+        children: 64487
+        local_in_parens: 9724
+        av: 1274
     history:
       - date: "1979-04"
         event: "創設"
@@ -28,12 +37,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014で名簿・施設・統計内訳を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08217-02"
     name: "取手市立ふじしろ図書館"
+    name_en: "Toride City Fujishiro Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "300-1512"
@@ -50,6 +67,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 140160
+      annual_loans: null
+      breakdown:
+        general: 95323
+        children: 38845
+        local_in_parens: 4655
+        av: 5992
     history:
       - date: "2002-11"
         event: "創設"
@@ -57,7 +80,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014で名簿・施設・統計内訳を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

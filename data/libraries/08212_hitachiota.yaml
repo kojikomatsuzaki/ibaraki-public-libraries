@@ -1,29 +1,57 @@
 municipality_code: "08212"
 municipality_name: "常陸太田市"
+municipality_name_en: "Hitachiota City"
 audit_status: "IN_PROGRESS"
-notes: "本館および3分室（金砂郷・水府・里美）の網羅を確認。分室別統計の抽出が継続中"
+notes: "本館および規則(SRC-0008)に基づく3分室（金砂郷・水府・里美）を収録。本館の創設(1990-03)・現館開館(1990-07)・延面積(1,619.40㎡)・席数(106席)をSRC-0014 p.12に基づき修正。所蔵数251,430冊はシステム計(system_aggregate)。"
+uninvestigated_or_excluded_facilities: "公民館・地域交流センター内の小規模図書コーナーは未調査"
 facilities:
   - facility_id: "IB-08212-01"
     name: "常陸太田市立図書館"
+    name_en: "Hitachiota City Library"
+    category: "Cat A"
     legal_status: "central_library"
     postal_code: "313-0061"
     address: "常陸太田市中城町3282"
     phone: "0294-72-5555"
     fax: "0294-72-3525"
-    established_year_month: "1981-10"
-    opened_year_month: "1981-10"
+    established_year_month: "1990-03"
+    opened_year_month: "1990-07"
     building_structure: "鉄筋コンクリート造 地上2階"
-    floor_area_m2: 2191.00
-    reading_seats: 102
-    collection_count: 251430
+    floor_area_m2: 1619.4
+    reading_seats: 106
+    statistics:
+      scope: "system_aggregate"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 251430
+      annual_loans: null
+      breakdown:
+        general: 146371
+        children: 78617
+        local: 12145
+        av: 14297
+    history:
+      - date: "1990-03"
+        event: "創設"
+      - date: "1990-07"
+        event: "現館開館"
     sources:
       - "SRC-0008"
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0008"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0008およびSRC-0014 p.12, p.20により全項目照合・修正完了"
+      unverified_fields: []
   - facility_id: "IB-08212-02"
     name: "常陸太田市立図書館 金砂郷分室"
+    name_en: "Hitachiota City Library Kanasago Branch Room"
+    category: "Cat B"
     legal_status: "branch_room"
     postal_code: "313-0112"
     address: "常陸太田市高柿町272 金砂郷交流センター内"
@@ -34,14 +62,35 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0008"
+    field_sources:
+      identity_and_location: "SRC-0008"
+      legal_basis: "SRC-0008"
+      building_and_capacity: "unverified"
+      statistics: "unverified (included in IB-08212-01 system_aggregate)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:35:10Z"
+      scope: "施行規則により設置を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08212-03"
     name: "常陸太田市立図書館 水府分室"
+    name_en: "Hitachiota City Library Suifu Branch Room"
+    category: "Cat B"
     legal_status: "branch_room"
     postal_code: "313-0211"
     address: "常陸太田市町分463-20 水府総合センター内"
@@ -52,14 +101,35 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0008"
+    field_sources:
+      identity_and_location: "SRC-0008"
+      legal_basis: "SRC-0008"
+      building_and_capacity: "unverified"
+      statistics: "unverified (included in IB-08212-01 system_aggregate)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:35:10Z"
+      scope: "施行規則により設置を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08212-04"
     name: "常陸太田市立図書館 里美分室"
+    name_en: "Hitachiota City Library Satomi Branch Room"
+    category: "Cat B"
     legal_status: "branch_room"
     postal_code: "311-0505"
     address: "常陸太田市大中町1653 里美文化センター内"
@@ -70,9 +140,28 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0008"
+    field_sources:
+      identity_and_location: "SRC-0008"
+      legal_basis: "SRC-0008"
+      building_and_capacity: "unverified"
+      statistics: "unverified (included in IB-08212-01 system_aggregate)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:35:10Z"
+      scope: "施行規則により設置を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"

@@ -78,8 +78,8 @@
         "confirmed_content": null
       },
       "facility": {
-        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
-        "confirmed_content": "古河市の施設所在地・電話・延面積・開館年月を照合"
+        "url": "https://www.city.ibaraki-koga.lg.jp/soshiki/tosyo/index.html",
+        "confirmed_content": "三和図書館（燦SUN館）・古河図書館の2館、および社会教育施設課所管5図書室（とねミドリ館、つつみ館、中田公民館、ユーセンターKI総和、総和地域交流センター）を確認"
       },
       "statistics": {
         "title": "令和７年度茨城の図書館（茨城県図書館協会）",
@@ -89,7 +89,7 @@
         "confirmed_content": "古河市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
       }
     },
-    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+    "notes": "2図書館＋5公民館等図書室の計7拠点を収録。三和図書館のSRC-0014 p.20総数印字(33,651)と内訳合計(336,512/339,015)の差異を検出し記録済み"
   },
   "08205": {
     "name_ja": "石岡市",
@@ -530,7 +530,7 @@
   },
   "08228": {
     "name_ja": "坂東市",
-    "status": "IN_PROGRESS",
+    "status": "AUDITED",
     "pillars": {
       "legal": {
         "title": "坂東市立図書館の設置及び管理等に関する条例",
@@ -546,10 +546,10 @@
         "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
         "fiscal_year": 2024,
         "basis_date": "2025-03-31",
-        "confirmed_content": "岩井図書館140,739冊、猿島図書館66,633冊を確認。館別利用詳細実績の照合が継続中"
+        "confirmed_content": "岩井図書館140,739冊、猿島図書館115,322冊（SRC-0014 p.21）を内訳まで完全照合済み"
       }
     },
-    "notes": "2館とも条例設置本館級。館別所蔵統計照合済み、利用詳細内訳の照合が継続中"
+    "notes": "条例第2条・施設案内・協会統計(SRC-0014)の3ピラーすべてで岩井・猿島2館体制および全数値を完全照合完了"
   },
   "08229": {
     "name_ja": "稲敷市",
@@ -584,41 +584,41 @@
         "confirmed_content": null
       },
       "facility": {
-        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
-        "confirmed_content": "かすみがうら市の施設所在地・電話・延面積・開館年月を照合"
+        "url": "https://www.city.kasumigaura.lg.jp/sp/page/page003024.html",
+        "confirmed_content": "本館（深谷3719-1）、千代田分館（千代田コミュニティセンター・旧志筑小学校）、下稲吉コミュニティセンター窓口の3拠点を確認"
       },
       "statistics": {
         "title": "令和７年度茨城の図書館（茨城県図書館協会）",
         "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
         "fiscal_year": 2024,
         "basis_date": "2025-03-31",
-        "confirmed_content": "かすみがうら市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+        "confirmed_content": "かすみがうら市立図書館130,736冊（SRC-0014 p.21）を内訳まで照合済み"
       }
     },
     "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
   },
   "08231": {
     "name_ja": "桜川市",
-    "status": "IN_PROGRESS",
+    "status": "AUDITED",
     "pillars": {
       "legal": {
-        "title": null,
-        "url": null,
-        "confirmed_content": null
+        "title": "桜川市立図書館条例",
+        "url": "https://www.city.sakuragawa.lg.jp/gyousei/reiki_int/reiki_honbun/r211RG00001390.html",
+        "confirmed_content": "第2条（桜川市立図書館：東桜川一丁目21番地1）、第5条第4号（市内図書施設等との連携）"
       },
       "facility": {
         "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
-        "confirmed_content": "桜川市の施設所在地・電話・延面積・開館年月を照合"
+        "confirmed_content": "桜川市立図書館（生涯学習センター内）および真壁伝承館図書室の2拠点の所在地・規模・開館年月を照合完了"
       },
       "statistics": {
         "title": "令和７年度茨城の図書館（茨城県図書館協会）",
         "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
         "fiscal_year": 2024,
         "basis_date": "2025-03-31",
-        "confirmed_content": "桜川市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+        "confirmed_content": "桜川市立図書館66,633冊（p.21）、真壁伝承館図書室38,477冊/点（p.41）を内訳まで完全照合済み"
       }
     },
-    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+    "notes": "条例・施設・統計の3ピラー全項目を完全照合完了"
   },
   "08232": {
     "name_ja": "神栖市",
@@ -814,15 +814,15 @@
         "confirmed_content": null
       },
       "facility": {
-        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
-        "confirmed_content": "大子町の施設所在地・電話・延面積・開館年月を照合"
+        "url": "https://www.town.daigo.ibaraki.jp/sp/page/page006193.html",
+        "confirmed_content": "大子町立中央公民館別館図書室（愛称：図書館「プチ・ソフィア」、池田2716-2）の設置・利用案内を確認"
       },
       "statistics": {
         "title": "令和７年度茨城の図書館（茨城県図書館協会）",
         "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
         "fiscal_year": 2024,
         "basis_date": "2025-03-31",
-        "confirmed_content": "大子町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+        "confirmed_content": "所蔵資料数49,885冊/点、令和6年度貸出20,651冊/点（SRC-0014 p.41-42）を照合済み"
       }
     },
     "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"

@@ -1,10 +1,13 @@
 municipality_code: "08221"
 municipality_name: "ひたちなか市"
+municipality_name_en: "Hitachinaka City"
 audit_status: "IN_PROGRESS"
-notes: "中央図書館・那珂湊図書館・佐野図書館の3館体制網羅確認"
+notes: "中央図書館・那珂湊図書館・佐野図書館の3館体制および単館別所蔵統計をSRC-0014で照合済み。設置条例の照合が継続中。"
+uninvestigated_or_excluded_facilities: "公民館・コミュニティセンター図書室の有無は未調査"
 facilities:
   - facility_id: "IB-08221-01"
     name: "ひたちなか市立中央図書館"
+    name_en: "Hitachinaka City Central Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "312-0044"
@@ -21,6 +24,8 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 261524
+      annual_loans: null
+      breakdown: null
     history:
       - date: "1974-04"
         event: "創設"
@@ -28,12 +33,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08221-02"
     name: "ひたちなか市立那珂湊図書館"
+    name_en: "Hitachinaka City Nakaminato Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "311-1293"
@@ -50,6 +63,8 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 102210
+      annual_loans: null
+      breakdown: null
     history:
       - date: "1967-04"
         event: "創設"
@@ -57,12 +72,20 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"
   - facility_id: "IB-08221-03"
     name: "ひたちなか市立佐野図書館"
+    name_en: "Hitachinaka City Sano Library"
     category: "Cat A"
     legal_status: "branch_library"
     postal_code: "312-0062"
@@ -79,6 +102,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 149791
+      annual_loans: null
+      breakdown:
+        general: 98639
+        children: 41349
+        local: 6394
+        av: 3409
     history:
       - date: "1999-10"
         event: "創設"
@@ -86,7 +115,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.20)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

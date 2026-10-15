@@ -1,10 +1,14 @@
 municipality_code: "08201"
 municipality_name: "水戸市"
+municipality_name_en: "Mito City"
 audit_status: "IN_PROGRESS"
-notes: "全6館の法規設置根拠および令和7年度茨城の図書館による個別統計数値を照合完了。地区館別の詳細職員配置内訳の照合が継続中"
+notes: "市立図書館6館（中央・東部・西部・見和・常澄・内原）の法規・施設・単館別所蔵統計（SRC-0014, SRC-0019）を照合完了。内原図書館の開館年月・延面積・閲覧席数の取りこぼしをSRC-0014 p.12（PDF p.14）に基づき補完済み。市民センター図書室等の配本拠点および職員配置詳細が未調査のためIN_PROGRESS。"
+uninvestigated_or_excluded_facilities: "各市民センター図書室（Cat C/D）は個別統計・設置規則が未調査"
 facilities:
   - facility_id: "IB-08201-01"
     name: "水戸市立中央図書館"
+    name_en: "Mito City Central Library"
+    category: "Cat A"
     legal_status: "central_library"
     postal_code: "310-0062"
     address: "水戸市大町3-3-20"
@@ -15,14 +19,39 @@ facilities:
     building_structure: "鉄筋コンクリート造 地下1階 地上4階"
     floor_area_m2: 2917.96
     reading_seats: 156
-    collection_count: 446102
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 446102
+      annual_loans: 120280
+      breakdown:
+        general: 290680
+        children: 146588
+        local_in_parens: 33199
+        av: 8834
+    history:
+      - date: "1944-10"
+        event: "創設"
+      - date: "1980-07"
+        event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0019"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0019 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20, p.24)"
     verification:
       status: "verified"
       verified_at: "2026-10-15T05:30:00Z"
+      scope: "法規・所在地・施設規模・単館所蔵数・貸出数を照合完了"
+      unverified_fields: []
   - facility_id: "IB-08201-02"
     name: "水戸市立東部図書館"
+    name_en: "Mito City Tobu Library"
+    category: "Cat A"
     legal_status: "branch_library"
     postal_code: "310-0836"
     address: "水戸市元吉田町1973-27"
@@ -33,14 +62,39 @@ facilities:
     building_structure: "鉄筋コンクリート造 地上2階一部地下1階"
     floor_area_m2: 1802.42
     reading_seats: 96
-    collection_count: 125661
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 125661
+      annual_loans: 285598
+      breakdown:
+        general: 80584
+        children: 40109
+        local_in_parens: 6841
+        av: 4968
+    history:
+      - date: "1989-04"
+        event: "創設"
+      - date: "1989-04"
+        event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0019"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0019 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20, p.24)"
     verification:
       status: "verified"
       verified_at: "2026-10-15T05:30:00Z"
+      scope: "法規・所在地・施設規模・単館所蔵数・貸出数を照合完了"
+      unverified_fields: []
   - facility_id: "IB-08201-03"
     name: "水戸市立西部図書館"
+    name_en: "Mito City Seibu Library"
+    category: "Cat A"
     legal_status: "branch_library"
     postal_code: "310-0903"
     address: "水戸市堀町2311-1"
@@ -51,14 +105,39 @@ facilities:
     building_structure: "鉄筋コンクリート造 地上2階"
     floor_area_m2: 1991.28
     reading_seats: 124
-    collection_count: 108382
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 108382
+      annual_loans: 141652
+      breakdown:
+        general: 67880
+        children: 35346
+        local_in_parens: 5756
+        av: 5156
+    history:
+      - date: "1992-04"
+        event: "創設"
+      - date: "1992-04"
+        event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0019"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0019 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20, p.24)"
     verification:
       status: "verified"
       verified_at: "2026-10-15T05:30:00Z"
+      scope: "法規・所在地・施設規模・単館所蔵数・貸出数を照合完了"
+      unverified_fields: []
   - facility_id: "IB-08201-04"
     name: "水戸市立見和図書館"
+    name_en: "Mito City Miwa Library"
+    category: "Cat A"
     legal_status: "branch_library"
     postal_code: "310-0911"
     address: "水戸市見和2-500-2"
@@ -69,14 +148,39 @@ facilities:
     building_structure: "鉄筋コンクリート造 一部地上2階"
     floor_area_m2: 1994.12
     reading_seats: 109
-    collection_count: 174370
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 174370
+      annual_loans: null
+      breakdown:
+        general: 87641
+        children: 83582
+        local_in_parens: 6662
+        av: 3147
+    history:
+      - date: "2006-04"
+        event: "創設"
+      - date: "2006-04"
+        event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0019"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0019 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
       status: "verified"
       verified_at: "2026-10-15T05:30:00Z"
+      scope: "法規・所在地・施設規模・単館所蔵数を照合完了"
+      unverified_fields: []
   - facility_id: "IB-08201-05"
     name: "水戸市立常澄図書館"
+    name_en: "Mito City Tsunezumi Library"
+    category: "Cat A"
     legal_status: "branch_library"
     postal_code: "311-1115"
     address: "水戸市大串町2134"
@@ -87,27 +191,75 @@ facilities:
     building_structure: "鉄筋コンクリート造 地上3階"
     floor_area_m2: 550.15
     reading_seats: 33
-    collection_count: 77797
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 77797
+      annual_loans: null
+      breakdown:
+        general: 47910
+        children: 27482
+        local_in_parens: 4059
+        av: 2405
+    history:
+      - date: "2008-04"
+        event: "創設"
+      - date: "2008-04"
+        event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0019"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0019 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
       status: "verified"
       verified_at: "2026-10-15T05:30:00Z"
+      scope: "法規・所在地・施設規模・単館所蔵数を照合完了"
+      unverified_fields: []
   - facility_id: "IB-08201-06"
     name: "水戸市立内原図書館"
+    name_en: "Mito City Uchihara Library"
+    category: "Cat A"
     legal_status: "branch_library"
     postal_code: "319-0315"
     address: "水戸市内原町1497-16"
     phone: "029-291-6451"
     fax: "029-259-6810"
-    established_year_month: null
-    opened_year_month: null
-    building_structure: null
-    floor_area_m2: null
-    reading_seats: null
-    collection_count: 102639
+    established_year_month: "2010-04"
+    opened_year_month: "2010-04"
+    building_structure: "鉄筋コンクリート造 地上1階"
+    floor_area_m2: 1873.34
+    reading_seats: 115
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 102639
+      annual_loans: null
+      breakdown:
+        general: 64343
+        children: 35300
+        local_in_parens: 4840
+        av: 2996
+    history:
+      - date: "2010-04"
+        event: "創設"
+      - date: "2010-04"
+        event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0019"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0019 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014 p.12に基づき創設・開館・構造・延面積(1,873.34㎡)・席数(115席)を補完・検証完了"
+      unverified_fields: []

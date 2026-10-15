@@ -1,29 +1,57 @@
 municipality_code: "08205"
 municipality_name: "石岡市"
+municipality_name_en: "Ishioka City"
 audit_status: "IN_PROGRESS"
-notes: "中央図書館・こども図書館本の森（別棟）・郷の本棚やさと図書館（条例第3条）の網羅を確認。分館別の詳細統計抽出が継続中"
+notes: "中央図書館・こども図書館本の森（敷地内別棟）・郷の本棚やさと図書館（条例第3条分館）を収録。中央館の創設(1889-09)・現館開館(1980-04)・延面積(1,777.44㎡)・閲覧席数(127席)をSRC-0014 p.12に基づき修正。公民館図書室等の詳細は調査継続中。"
+uninvestigated_or_excluded_facilities: "条例第3条第2項に基づく配本所・公民館図書室（東成井・城南等）の個別統計は未調査"
 facilities:
   - facility_id: "IB-08205-01"
     name: "石岡市立中央図書館"
+    name_en: "Ishioka City Central Library"
+    category: "Cat A"
     legal_status: "central_library"
     postal_code: "315-0017"
     address: "石岡市若宮1-6-31"
     phone: "0299-24-1507"
     fax: "0299-24-1508"
-    established_year_month: "1982-10"
-    opened_year_month: "1982-10"
-    building_structure: "鉄筋コンクリート造 地上2階"
-    floor_area_m2: 1640.23
-    reading_seats: 103
-    collection_count: 218287
+    established_year_month: "1889-09"
+    opened_year_month: "1980-04"
+    building_structure: "鉄筋コンクリート造3階建、鉄骨造（ブレース構造）"
+    floor_area_m2: 1777.44
+    reading_seats: 127
+    statistics:
+      scope: "system_aggregate"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 218287
+      annual_loans: null
+      breakdown:
+        general: 133549
+        children: 65227
+        local: 13785
+        av: 5726
+    history:
+      - date: "1889-09"
+        event: "創設"
+      - date: "1980-04"
+        event: "現館開館"
     sources:
       - "SRC-0004"
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0004 (第2条)"
+      building_and_capacity: "SRC-0014 (p.12)"
+      statistics: "SRC-0014 (p.20)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0004およびSRC-0014 p.12, p.20により全項目照合・修正完了"
+      unverified_fields: []
   - facility_id: "IB-08205-02"
     name: "石岡市立こども図書館 本の森"
+    name_en: "Ishioka City Children Library Hon no Mori"
+    category: "Cat A"
     legal_status: "annex_facility"
     postal_code: "315-0017"
     address: "石岡市若宮1-6-31（中央図書館敷地内別棟）"
@@ -34,14 +62,38 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      - date: "2017-04"
+        event: "創設"
+      - date: "2017-04"
+        event: "現館開館"
     sources:
       - "SRC-0004"
+      - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.12 併設欄)"
+      legal_basis: "SRC-0004 (第2条同一敷地)"
+      building_and_capacity: "unverified (included in IB-08205-01)"
+      statistics: "unverified (included in IB-08205-01)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:20:03Z"
+      scope: "中央館併設別棟としての存在を確認。単棟面積・単棟蔵書内訳は中央館に合算"
+      unverified_fields:
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08205-03"
     name: "石岡市郷の本棚やさと図書館"
+    name_en: "Ishioka City Sato no Hondana Yasato Library"
+    category: "Cat A"
     legal_status: "branch_library"
     postal_code: "315-0116"
     address: "石岡市柿岡5680-1 八郷総合支所内"
@@ -52,9 +104,28 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0004"
+    field_sources:
+      identity_and_location: "SRC-0004 (第3条)"
+      legal_basis: "SRC-0004 (第3条)"
+      building_and_capacity: "unverified"
+      statistics: "unverified"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:20:03Z"
+      scope: "条例第3条により名称・位置を確認。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"

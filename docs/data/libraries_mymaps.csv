@@ -1,0 +1,101 @@
+Name,Name_EN,Municipality,Category,Legal_Status,Address,Phone,Collection_Count,Statistics_Scope,Verification_Status,Sources
+水戸市立中央図書館,Mito City Central Library,水戸市,Cat A,central_library,茨城県水戸市大町3-3-20,029-226-3951,446102,facility_level,verified,"SRC-0014, SRC-0019"
+水戸市立東部図書館,Mito City Tobu Library,水戸市,Cat A,branch_library,茨城県水戸市元吉田町1973-27,029-248-4051,125661,facility_level,verified,"SRC-0014, SRC-0019"
+水戸市立西部図書館,Mito City Seibu Library,水戸市,Cat A,branch_library,茨城県水戸市堀町2311-1,029-255-5651,108382,facility_level,verified,"SRC-0014, SRC-0019"
+水戸市立見和図書館,Mito City Miwa Library,水戸市,Cat A,branch_library,茨城県水戸市見和2-500-2,029-350-2051,174370,facility_level,verified,"SRC-0014, SRC-0019"
+水戸市立常澄図書館,Mito City Tsunezumi Library,水戸市,Cat A,branch_library,茨城県水戸市大串町2134,029-269-1751,77797,facility_level,verified,"SRC-0014, SRC-0019"
+水戸市立内原図書館,Mito City Uchihara Library,水戸市,Cat A,branch_library,茨城県水戸市内原町1497-16,029-291-6451,102639,facility_level,verified,"SRC-0014, SRC-0019"
+日立市立記念図書館,Hitachi City Memorial Library,日立市,Cat A,central_library,茨城県日立市幸町1-21-1 日立シビックセンター内,0294-24-7714,453087,facility_level,partially_verified,SRC-0014
+日立市立多賀図書館,Hitachi City Taga Library,日立市,Cat A,branch_library,茨城県日立市末広町1-1-4 日立市教育会館内,0294-33-2655,135570,facility_level,partially_verified,SRC-0014
+日立市立十王図書館,Hitachi City Juo Library,日立市,Cat A,branch_library,茨城県日立市十王町友部202-1,0294-20-2345,113192,facility_level,partially_verified,SRC-0014
+日立市立南部図書館,Hitachi City Nanbu Library,日立市,Cat A,branch_library,茨城県日立市久慈町3-24-1,0294-29-1125,117682,facility_level,partially_verified,SRC-0014
+土浦市立図書館,Tsuchiura City Library,土浦市,Cat A,central_library,茨城県土浦市大和町1-1,029-823-4646,517280,system_aggregate,verified,"SRC-0001, SRC-0002, SRC-0003, SRC-0014"
+土浦市立図書館 三中地区分館,Tsuchiura City Library Sanchu District Branch,土浦市,Cat B,branch_library,茨城県土浦市中村南4-8-35 三中地区公民館内,029-841-0161,,not_applicable,partially_verified,"SRC-0001, SRC-0002"
+土浦市立図書館 都和分館,Tsuchiura City Library Tsuwa Branch,土浦市,Cat B,branch_library,茨城県土浦市並木5-4824 都和公民館内,029-831-2670,,not_applicable,partially_verified,"SRC-0001, SRC-0002"
+土浦市立図書館 神立地区分館,Tsuchiura City Library Kandatsu District Branch,土浦市,Cat B,branch_library,茨城県土浦市神立中央5-11-5 神立地区コミュニティセンター内,029-831-6101,,not_applicable,partially_verified,"SRC-0001, SRC-0002"
+土浦市立図書館 新治地区分館,Tsuchiura City Library Niihari District Branch,土浦市,Cat B,branch_library,茨城県土浦市藤沢982 新治地区公民館内,029-862-2005,,not_applicable,partially_verified,"SRC-0001, SRC-0002"
+古河市三和図書館（燦SUN館）,Koga City Sanwa Library (Sun Sun Kan),古河市,Cat A,central_library,茨城県古河市仁連2042-1 古河市三和資料館併設,0280-75-1511,33651,facility_level,partially_verified,"SRC-0014, SRC-0017"
+古河市古河図書館,Koga City Koga Library,古河市,Cat A,branch_library,茨城県古河市東3-7-19 古河市古河東公民館併設,0280-32-5299,129845,facility_level,partially_verified,"SRC-0014, SRC-0017"
+とねミドリ館図書室,Tone Midori Kan Reading Room,古河市,Cat C,community_center_library,茨城県古河市内（社会教育施設課所管）,,,not_applicable,partially_verified,SRC-0017
+つつみ館図書室,Tsutsumi Kan Reading Room,古河市,Cat C,community_center_library,茨城県古河市内（社会教育施設課所管）,,,not_applicable,partially_verified,SRC-0017
+古河断熱中田公民館図書室,Nakada Community Center Reading Room,古河市,Cat C,community_center_library,茨城県古河市内（社会教育施設課所管）,,,not_applicable,partially_verified,SRC-0017
+ユーセンターKI総和図書室,U-Center Sowa Reading Room,古河市,Cat C,community_center_library,茨城県古河市内（社会教育施設課所管）,,,not_applicable,partially_verified,SRC-0017
+総和地域交流センター図書室（コスモスプラザ）,Sowa Regional Exchange Center Reading Room,古河市,Cat C,community_center_library,茨城県古河市内（社会教育施設課所管）,,,not_applicable,partially_verified,SRC-0017
+石岡市立中央図書館,Ishioka City Central Library,石岡市,Cat A,central_library,茨城県石岡市若宮1-6-31,0299-24-1507,218287,system_aggregate,verified,"SRC-0004, SRC-0014"
+石岡市立こども図書館 本の森,Ishioka City Children Library Hon no Mori,石岡市,Cat A,annex_facility,茨城県石岡市若宮1-6-31（中央図書館敷地内別棟）,0299-24-1507,,not_applicable,partially_verified,"SRC-0004, SRC-0014"
+石岡市郷の本棚やさと図書館,Ishioka City Sato no Hondana Yasato Library,石岡市,Cat A,branch_library,茨城県石岡市柿岡5680-1 八郷総合支所内,0299-43-1111,,not_applicable,partially_verified,SRC-0004
+ゆうき図書館（結城市立図書館）,Yuki Library,結城市,Cat A,central_library,茨城県結城市国府町1-1-1 結城市民情報センター内,0296-34-0150,303838,facility_level,partially_verified,SRC-0014
+龍ケ崎市立中央図書館,Ryugasaki City Central Library,龍ケ崎市,Cat A,central_library,茨城県龍ケ崎市馴馬町2630,0297-64-2202,247440,facility_level,partially_verified,SRC-0014
+下妻市立図書館,Shimotsuma City Library,下妻市,Cat A,central_library,茨城県下妻市砂沼新田35-1,0296-43-8811,226118,facility_level,partially_verified,SRC-0014
+常総市立図書館,Joso City Library,常総市,Cat A,central_library,茨城県常総市水海道天満町1606 二水会館併設,0297-23-5556,159194,facility_level,partially_verified,SRC-0014
+常総市地域交流センター図書室,Joso City Regional Exchange Center Reading Room,常総市,Cat C,community_center_library,茨城県常総市新石下2010,0297-42-0169,21876,facility_level,partially_verified,SRC-0014
+常陸太田市立図書館,Hitachiota City Library,常陸太田市,Cat A,central_library,茨城県常陸太田市中城町3282,0294-72-5555,251430,system_aggregate,verified,"SRC-0008, SRC-0014"
+常陸太田市立図書館 金砂郷分室,Hitachiota City Library Kanasago Branch Room,常陸太田市,Cat B,branch_room,茨城県常陸太田市高柿町272 金砂郷交流センター内,0294-76-2111,,not_applicable,partially_verified,SRC-0008
+常陸太田市立図書館 水府分室,Hitachiota City Library Suifu Branch Room,常陸太田市,Cat B,branch_room,茨城県常陸太田市町分463-20 水府総合センター内,0294-85-1111,,not_applicable,partially_verified,SRC-0008
+常陸太田市立図書館 里美分室,Hitachiota City Library Satomi Branch Room,常陸太田市,Cat B,branch_room,茨城県常陸太田市大中町1653 里美文化センター内,0294-82-2111,,not_applicable,partially_verified,SRC-0008
+高萩市立図書館,Takahagi City Library,高萩市,Cat A,central_library,茨城県高萩市高萩8-1 高萩市歴史民俗資料館併設,0293-23-7174,117816,facility_level,partially_verified,SRC-0014
+北茨城市立図書館,Kitaibaraki City Library,北茨城市,Cat A,central_library,茨城県北茨城市磯原町本町2-5-16,0293-42-1451,194099,facility_level,partially_verified,SRC-0014
+笠間市立笠間図書館,Kasama City Kasama Library,笠間市,Cat A,central_library,茨城県笠間市石井2023-1,0296-72-5046,260291,facility_level,partially_verified,SRC-0014
+笠間市立友部図書館,Kasama City Tomobe Library,笠間市,Cat A,branch_library,茨城県笠間市平町2084,0296-78-1200,260890,facility_level,partially_verified,SRC-0014
+笠間市立岩間図書館,Kasama City Iwama Library,笠間市,Cat A,branch_library,茨城県笠間市下郷5140 市民センターいわま内,0299-45-2082,90500,facility_level,partially_verified,SRC-0014
+取手市立取手図書館,Toride City Toride Library,取手市,Cat A,central_library,茨城県取手市取手1-12-16,0297-74-8361,225017,facility_level,partially_verified,SRC-0014
+取手市立ふじしろ図書館,Toride City Fujishiro Library,取手市,Cat A,branch_library,茨城県取手市藤代415,0297-70-8181,140160,facility_level,partially_verified,SRC-0014
+牛久市立中央図書館,Ushiku City Central Library,牛久市,Cat A,central_library,茨城県牛久市柏田町3304-1,029-871-1400,312013,facility_level,partially_verified,SRC-0014
+つくば市立中央図書館,Tsukuba City Central Library,つくば市,Cat A,central_library,茨城県つくば市吾妻2-8 つくば文化会館アルス内,029-856-4311,314309,system_aggregate,verified,"SRC-0006, SRC-0014"
+つくば市立中央図書館 谷田部交流センター図書室,Tsukuba City Library Yatabe Exchange Center Branch Room,つくば市,Cat B,branch_room,茨城県つくば市谷田部4711 谷田部交流センター内,029-836-0567,,not_applicable,partially_verified,SRC-0006
+つくば市立中央図書館 筑波交流センター図書室,Tsukuba City Library Tsukuba Exchange Center Branch Room,つくば市,Cat B,branch_room,茨城県つくば市北条5060 筑波交流センター内,029-867-0050,,not_applicable,partially_verified,SRC-0006
+つくば市立中央図書館 小野川交流センター図書室,Tsukuba City Library Onogawa Exchange Center Branch Room,つくば市,Cat B,branch_room,茨城県つくば市館野5 小野川交流センター内,029-851-8201,,not_applicable,partially_verified,SRC-0006
+つくば市立中央図書館 茎崎交流センター図書室,Tsukuba City Library Kukizaki Exchange Center Branch Room,つくば市,Cat B,branch_room,茨城県つくば市小茎318 茎崎交流センター内,029-876-0275,,not_applicable,partially_verified,SRC-0006
+ひたちなか市立中央図書館,Hitachinaka City Central Library,ひたちなか市,Cat A,central_library,茨城県ひたちなか市元町5-3,029-273-2247,261524,facility_level,partially_verified,SRC-0014
+ひたちなか市立那珂湊図書館,Hitachinaka City Nakaminato Library,ひたちなか市,Cat A,branch_library,茨城県ひたちなか市鍛冶屋窪3566,029-263-5499,102210,facility_level,partially_verified,SRC-0014
+ひたちなか市立佐野図書館,Hitachinaka City Sano Library,ひたちなか市,Cat A,branch_library,茨城県ひたちなか市高場1362-1,029-270-3811,149791,facility_level,partially_verified,SRC-0014
+鹿嶋市立中央図書館,Kashima City Central Library,鹿嶋市,Cat A,central_library,茨城県鹿嶋市宮中2398-1,0299-83-2510,193070,system_aggregate,verified,"SRC-0005, SRC-0014"
+鹿嶋市立中央図書館 大野分館,Kashima City Central Library Ohno Branch,鹿嶋市,Cat B,branch_library,茨城県鹿嶋市津賀1919-1 大野ふれあいセンター内,0299-69-1111,,not_applicable,partially_verified,SRC-0005
+潮来市立図書館,Itako City Library,潮来市,Cat A,central_library,茨城県潮来市牛堀289,0299-80-3311,237971,facility_level,partially_verified,SRC-0014
+守谷中央図書館,Moriya Central Library,守谷市,Cat A,central_library,茨城県守谷市大柏937-2,0297-45-1000,444191,system_aggregate,verified,"SRC-0007, SRC-0014"
+守谷市立図書館 中央公民館図書室,Moriya City Library Central Community Center Branch Room,守谷市,Cat B,branch_room,茨城県守谷市百合ケ丘2-2540-1 中央公民館内,0297-48-6731,,not_applicable,partially_verified,SRC-0007
+守谷市立図書館 郷州公民館図書室,Moriya City Library Goshu Community Center Branch Room,守谷市,Cat B,branch_room,茨城県守谷市みずき野5-3-3 郷州公民館内,0297-48-6711,,not_applicable,partially_verified,SRC-0007
+守谷市立図書館 高野公民館図書室,Moriya City Library Koya Community Center Branch Room,守谷市,Cat B,branch_room,茨城県守谷市高野1142 高野公民館内,0297-45-5411,,not_applicable,partially_verified,SRC-0007
+守谷市立図書館 北守谷公民館図書室,Moriya City Library Kitamoriya Community Center Branch Room,守谷市,Cat B,branch_room,茨城県守谷市板戸井1977-2 北守谷公民館内,0297-47-0111,,not_applicable,partially_verified,SRC-0007
+常陸大宮市立図書情報館,Hitachiomiya City Library and Information Center,常陸大宮市,Cat A,central_library,茨城県常陸大宮市中富町3135-6 常陸大宮市文化センター併設,0295-53-7300,197444,facility_level,partially_verified,SRC-0014
+那珂市立図書館,Naka City Library,那珂市,Cat A,central_library,茨城県那珂市菅谷2995-1,029-352-1177,258605,facility_level,partially_verified,SRC-0014
+筑西市立中央図書館,Chikusei City Central Library,筑西市,Cat A,central_library,茨城県筑西市下岡崎1-11-1,0296-24-3530,288801,facility_level,partially_verified,SRC-0014
+筑西市立明野図書館,Chikusei City Akeno Library,筑西市,Cat A,branch_library,茨城県筑西市海老ケ島2120-7,0296-52-2466,115619,facility_level,partially_verified,SRC-0014
+坂東市立岩井図書館,Bando City Iwai Library,坂東市,Cat A,central_library,茨城県坂東市岩井5082 坂東市民音楽ホール（ベルフォーレ）併設,0297-36-1300,140739,facility_level,verified,"SRC-0009, SRC-0014"
+坂東市立猿島図書館,Bando City Sashima Library,坂東市,Cat A,branch_library,茨城県坂東市山2726 坂東市立資料館（ミューズ）併設,0280-88-8700,115322,facility_level,verified,"SRC-0009, SRC-0014"
+稲敷市立図書館,Inashiki City Library,稲敷市,Cat A,central_library,茨城県稲敷市八千石18-1 稲敷市立歴史民俗資料館併設,0299-79-3111,157758,facility_level,verified,"SRC-0010, SRC-0014"
+稲敷市江戸崎中央公民館図書室,Inashiki City Edosaki Central Community Center Reading Room,稲敷市,Cat C,community_center_library,茨城県稲敷市江戸崎甲2148-2 江戸崎中央公民館内,029-892-2000,,not_applicable,partially_verified,SRC-0010
+稲敷市新利根公民館図書室,Inashiki City Shintone Community Center Reading Room,稲敷市,Cat C,community_center_library,茨城県稲敷市柴崎7430 新利根公民館内,0299-79-2111,,not_applicable,partially_verified,SRC-0010
+稲敷市桜川地区センター図書室,Inashiki City Sakuragawa District Center Reading Room,稲敷市,Cat C,community_center_library,茨城県稲敷市須賀津208 桜川地区センター内,0299-79-2111,,not_applicable,partially_verified,SRC-0010
+かすみがうら市立図書館,Kasumigaura City Library,かすみがうら市,Cat A,central_library,茨城県かすみがうら市深谷3719-1 霞ヶ浦コミュニティセンター併設,029-897-0647,130736,system_aggregate,partially_verified,"SRC-0014, SRC-0016"
+かすみがうら市立図書館 千代田分館,Kasumigaura City Library Chiyoda Branch,かすみがうら市,Cat B,branch_library,茨城県かすみがうら市内 千代田コミュニティセンター（旧志筑小学校）内,,,not_applicable,partially_verified,"SRC-0014, SRC-0016"
+下稲吉コミュニティセンター（中央出張所・旧働く女性の家）図書窓口,Shimoinayoshi Community Center Book Pickup Point,かすみがうら市,Cat C,service_point,茨城県かすみがうら市下稲吉2633-19 付近（下稲吉コミュニティセンター内）,,,not_applicable,partially_verified,SRC-0016
+桜川市立図書館,Sakuragawa City Library,桜川市,Cat A,central_library,茨城県桜川市東桜川1-21-1 桜川市生涯学習センター（さくらす）内,0296-71-7707,66633,facility_level,verified,"SRC-0014, SRC-0015"
+桜川市真壁伝承館図書室,Sakuragawa City Makabe Denshokan Reading Room,桜川市,Cat C,community_center_library,茨城県桜川市真壁町真壁198 真壁伝承館内,0296-23-8525,38477,facility_level,verified,"SRC-0014, SRC-0015"
+神栖市立中央図書館,Kamisu City Central Library,神栖市,Cat A,central_library,茨城県神栖市大野原4-8-1,0299-92-3746,403153,facility_level,partially_verified,SRC-0014
+神栖市立うずも図書館,Kamisu City Uzumo Library,神栖市,Cat A,branch_library,茨城県神栖市知手中央7-1-6 神栖市立うずもコミュニティーセンター内,0299-90-5302,79142,facility_level,partially_verified,SRC-0014
+行方市立図書館,Namegata City Library,行方市,Cat A,central_library,茨城県行方市玉造乙1175,0299-55-1495,70810,facility_level,verified,"SRC-0011, SRC-0014"
+行方市麻生公民館図書室,Namegata City Aso Community Center Reading Room,行方市,Cat C,community_center_library,茨城県行方市麻生1229-8 麻生公民館内,0299-72-1593,,not_applicable,partially_verified,SRC-0011
+行方市北浦公民館図書室,Namegata City Kitaura Community Center Reading Room,行方市,Cat C,community_center_library,茨城県行方市山田2175 北浦公民館内,0291-35-2410,,not_applicable,partially_verified,SRC-0011
+鉾田市立図書館,Hokota City Library,鉾田市,Cat A,central_library,茨城県鉾田市鉾田1444-1,0291-33-2020,92315,system_aggregate,verified,"SRC-0012, SRC-0014"
+鉾田市立図書館 旭文庫,Hokota City Library Asahi Bunko,鉾田市,Cat B,branch_collection,茨城県鉾田市上沢1007-4 旭公民館内,0291-37-1111,,not_applicable,partially_verified,SRC-0012
+鉾田市立図書館 大洋文庫,Hokota City Library Taiyo Bunko,鉾田市,Cat B,branch_collection,茨城県鉾田市汲上2603 大洋公民館内,0291-39-3311,,not_applicable,partially_verified,SRC-0012
+つくばみらい市立図書館,Tsukubamirai City Library,つくばみらい市,Cat A,central_library,茨城県つくばみらい市福田623,0297-58-3710,214718,system_aggregate,verified,"SRC-0013, SRC-0014"
+つくばみらい市立図書館 小絹分館,Tsukubamirai City Library Kokinu Branch,つくばみらい市,Cat A,branch_library,茨城県つくばみらい市小絹848 小絹コミュニティセンター内,0297-52-5111,,not_applicable,partially_verified,"SRC-0013, SRC-0014"
+つくばみらい市立図書館 みらい平分館,Tsukubamirai City Library Miraidaira Branch,つくばみらい市,Cat A,branch_library,茨城県つくばみらい市紫峰ヶ丘4-4-1 みらい平コミュニティセンター内,0297-58-2111,,not_applicable,partially_verified,"SRC-0013, SRC-0014"
+小美玉市小川図書館,Omitama City Ogawa Library,小美玉市,Cat A,central_library,茨城県小美玉市小川1664-2 小美玉市小川資料館併設,0299-58-5828,80971,facility_level,partially_verified,SRC-0014
+小美玉市玉里図書館,Omitama City Tamasato Library,小美玉市,Cat A,branch_library,茨城県小美玉市高崎291-3 玉里公民館・史料館・文化ホール併設,0299-26-9111,47277,facility_level,partially_verified,SRC-0014
+小美玉市美野里公民館図書室,Omitama City Minori Community Center Reading Room,小美玉市,Cat C,community_center_library,茨城県小美玉市堅倉835 美野里公民館内,0299-48-1110,28350,facility_level,partially_verified,SRC-0014
+茨城町立図書館,Ibaraki Town Library,茨城町,Cat A,central_library,茨城県東茨城郡茨城町小堤1037-1 茨城町総合福祉センター「ゆうゆう館」併設,029-240-7131,144076,facility_level,partially_verified,SRC-0014
+大洗町中央公民館図書室,Oarai Town Central Community Center Reading Room,大洗町,Cat C,community_center_library,茨城県東茨城郡大洗町磯浜町6881-88 漁村センター・町民会館併設,029-267-0230,27800,facility_level,partially_verified,SRC-0014
+城里町立桂図書館,Shirosato Town Katsura Library,城里町,Cat A,central_library,茨城県東茨城郡城里町阿波山173-2 町立郷土資料館・城里町役場桂支所併設,029-289-4946,104267,facility_level,partially_verified,SRC-0014
+コミュニティセンター城里図書室,Community Center Shirosato Reading Room,城里町,Cat C,community_center_library,茨城県東茨城郡城里町石塚1428-1 城里町教育委員会併設,029-288-6100,32860,facility_level,partially_verified,SRC-0014
+大子町立中央公民館別館図書室（図書館「プチ・ソフィア」）,Daigo Town Central Community Center Annex Library (Petit Sophia),大子町,Cat C,community_center_library,茨城県久慈郡大子町大字池田2716-2,0295-72-6123,49885,facility_level,partially_verified,"SRC-0014, SRC-0018"
+東海村立図書館,Tokai Village Library,東海村,Cat A,central_library,茨城県那珂郡東海村船場774-5 教育支援センター併設,029-282-3435,272193,facility_level,partially_verified,SRC-0014
+阿見町立図書館,Ami Town Library,阿見町,Cat A,central_library,茨城県稲敷郡阿見町若栗1838-24,029-887-6331,160453,facility_level,partially_verified,SRC-0014
+河内町中央公民館図書室,Kawachi Town Central Community Center Reading Room,河内町,Cat C,community_center_library,茨城県稲敷郡河内町長竿3693-2,0297-84-2843,12651,facility_level,partially_verified,SRC-0014
+美浦村中央公民館図書室,Miho Village Central Community Center Reading Room,美浦村,Cat C,community_center_library,茨城県稲敷郡美浦村受領1460-1 子育て支援センター・児童クラブ併設,029-885-8442,57537,facility_level,partially_verified,SRC-0014
+八千代町立図書館,Yachiyo Town Library,八千代町,Cat A,central_library,茨城県結城郡八千代町菅谷561-1,0296-48-4646,173001,facility_level,partially_verified,SRC-0014
+五霞町中央公民館図書室,Goka Town Central Community Center Reading Room,五霞町,Cat C,community_center_library,茨城県猿島郡五霞町小福田148-1,0280-84-1460,18381,facility_level,partially_verified,SRC-0014
+境町中央公民館図書室,Sakai Town Central Community Center Reading Room,境町,Cat C,community_center_library,茨城県猿島郡境町395-1,0280-81-1340,32832,facility_level,partially_verified,SRC-0014
+利根町図書館,Tone Town Library,利根町,Cat A,central_library,茨城県北相馬郡利根町下曽根278-1,0297-68-8868,179370,facility_level,partially_verified,SRC-0014

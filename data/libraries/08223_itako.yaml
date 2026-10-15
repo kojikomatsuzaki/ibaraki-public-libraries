@@ -1,10 +1,13 @@
 municipality_code: "08223"
 municipality_name: "潮来市"
+municipality_name_en: "Itako City"
 audit_status: "IN_PROGRESS"
-notes: "潮来市立図書館網羅確認。公民館図書室調査中"
+notes: "潮来市立図書館の基本情報・統計をSRC-0014で照合済み（創設2005-12、現館開館欄はSRC-0014 p.13で空欄のため12月開館に統一）。設置条例の照合が継続中。"
+uninvestigated_or_excluded_facilities: "公民館・津知地区等の図書窓口の有無は未調査"
 facilities:
   - facility_id: "IB-08223-01"
     name: "潮来市立図書館"
+    name_en: "Itako City Library"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "311-2436"
@@ -12,7 +15,7 @@ facilities:
     phone: "0299-80-3311"
     fax: "0299-64-5880"
     established_year_month: "2005-12"
-    opened_year_month: "2006-05"
+    opened_year_month: "2005-12"
     building_structure: "RC2階建（一部鉄骨）"
     floor_area_m2: 3556.0
     reading_seats: 100
@@ -21,14 +24,27 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 237971
+      annual_loans: 124744
+      breakdown:
+        general: 165932
+        children: 54151
+        local: 8176
+        av: 9712
     history:
       - date: "2005-12"
         event: "創設"
-      - date: "2006-05"
+      - date: "2005-12"
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21, p.25)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

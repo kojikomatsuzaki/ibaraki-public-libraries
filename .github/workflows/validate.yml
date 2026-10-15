@@ -5,6 +5,9 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    # 毎月1日定期検証 (POSIX cron互換)
+    - cron: '0 19 1 * *'
   workflow_dispatch:
 
 jobs:
@@ -19,11 +22,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Municipalities Master and Audit Validation
+      - name: Run Municipalities Master and Audit Registry Validation
         run: |
           python scripts/validate/audit_validator.py
 
-      - name: Run Cross-Reference Self-Test
+      - name: Run 44-Municipality Canonical YAML & Sources Integrity Audit
         run: |
-          python scripts/validate/verify_cross_reference.py rules/evidence_based_reporting.md || true
-          echo "Validator script is functional and verified."
+          python scripts/validate/canonical_data_validator.py
+
+      - name: Run Cross-Reference Unit Self-Test and Report Verification
+        run: |
+          python scripts/validate/verify_cross_reference.py --self-test rules/evidence_based_reporting.md docs/reports/
+
+      - name: Verify Public Site Data Exports Consistency
+        run: |
+          python scripts/build/generate_site_data.py
+          git diff --exit-code docs/data/

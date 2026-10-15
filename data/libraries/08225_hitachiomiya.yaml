@@ -1,14 +1,17 @@
 municipality_code: "08225"
 municipality_name: "常陸大宮市"
+municipality_name_en: "Hitachiomiya City"
 audit_status: "IN_PROGRESS"
-notes: "常陸大宮市立図書情報館網羅確認。文化センター併設"
+notes: "常陸大宮市立図書情報館の基本情報・統計をSRC-0014で照合済み。旧町村地区（山方・美和・緒川・御前山）の図書室・分室有無および条例は調査継続中。"
+uninvestigated_or_excluded_facilities: "旧4町村地区の公民館図書室・総合支所図書コーナーは未調査"
 facilities:
   - facility_id: "IB-08225-01"
     name: "常陸大宮市立図書情報館"
+    name_en: "Hitachiomiya City Library and Information Center"
     category: "Cat A"
     legal_status: "central_library"
     postal_code: "319-2265"
-    address: "常陸大宮市中富町3135-6 常陸大宮市文化センター内"
+    address: "常陸大宮市中富町3135-6 常陸大宮市文化センター併設"
     phone: "0295-53-7300"
     fax: "0295-53-7301"
     established_year_month: "1995-07"
@@ -21,6 +24,12 @@ facilities:
       fiscal_year: 2024
       basis_date: "2025-03-31"
       collection_count: 197444
+      annual_loans: 86660
+      breakdown:
+        general: 136044
+        children: 49063
+        local: 10446
+        av: 1891
     history:
       - date: "1995-07"
         event: "創設"
@@ -28,7 +37,14 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "unverified"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21, p.25)"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      scope: "SRC-0014で名簿・施設・統計を照合済み（条例条文未照合）"
+      unverified_fields:
+        - "ordinance_article"

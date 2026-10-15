@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>茨城県公立図書館データベース | Ibaraki Public Libraries Open Database</title>
+  <meta name="description" content="茨城県全44市町村・全100拠点の公立図書館・分館・分室・公民館図書室を一次資料（条例・規則・要覧・茨城県図書館協会統計）から照合したオープンデータベース。">
+  <meta property="og:title" content="茨城県公立図書館データベース | Ibaraki Public Libraries Open Database">
+  <meta property="og:description" content="茨城県全44市町村・全100拠点の公立図書館・公民館図書室のCanonical Open Dataset（JSON / CSV / GeoJSON）。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kojikomatsuzaki.github.io/ibaraki-public-libraries/">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "茨城県公立図書館データベース (Ibaraki Public Libraries Open Database)",
+    "description": "茨城県内全44市町村の公立図書館（本館・分館・分室・文庫）および主要公民館図書室の一次資料検証済みオープンデータセット。",
+    "url": "https://kojikomatsuzaki.github.io/ibaraki-public-libraries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "TemporalCoverage": "2024/2025",
+    "SpatialCoverage": {
+      "@type": "Place",
+      "name": "Ibaraki Prefecture, Japan"
+    },
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://kojikomatsuzaki.github.io/ibaraki-public-libraries/data/libraries.json"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://kojikomatsuzaki.github.io/ibaraki-public-libraries/data/libraries.csv"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/geo+json",
+        "contentUrl": "https://kojikomatsuzaki.github.io/ibaraki-public-libraries/data/libraries.geojson"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main class="container">
+    <section class="top-bar" aria-label="Dataset Overview">
+      <div>
+        <h1 id="app-title">茨城県公立図書館データベース (Canonical Open Dataset)</h1>
+        <p class="subtitle" id="app-subtitle">全44市町村・全100拠点の一次資料照合・統計集計単位分離・エビデンス追跡システム</p>
+      </div>
+      <div class="top-actions">
+        <button type="button" class="lang-btn" id="lang-toggle">English</button>
+      </div>
+    </section>
+
+    <section class="kpi-grid" aria-label="Key Metrics">
+      <div class="kpi-card">
+        <div class="kpi-label" id="kpi-muni-label">対象自治体数</div>
+        <div class="kpi-value" id="kpi-muni-val">44</div>
+        <div class="kpi-note" id="kpi-muni-note">茨城県全44市町村（AUDITED: 2 / IN_PROGRESS: 42）</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label" id="kpi-fac-label">収録施設・拠点数</div>
+        <div class="kpi-value" id="kpi-fac-val">100</div>
+        <div class="kpi-note" id="kpi-fac-note">検証完了: 20施設 / 一部未確認項目あり: 80施設</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label" id="kpi-fcol-label">単館統計蔵書数 (facility_level)</div>
+        <div class="kpi-value" id="kpi-fcol-val">—</div>
+        <div class="kpi-note" id="kpi-fcol-note">57施設の単館確定値合計（令和7年3月31日基準）</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label" id="kpi-scol-label">システム合算蔵書数 (system_aggregate)</div>
+        <div class="kpi-value" id="kpi-scol-val">—</div>
+        <div class="kpi-note" id="kpi-scol-note">分館・分室を含む9市のシステム合算値（二重計上分離）</div>
+      </div>
+    </section>
+
+    <section class="controls-panel" aria-label="Search and Filters">
+      <div class="control-group">
+        <label for="filter-search" id="lbl-search">キーワード検索（施設名・自治体・住所・ID）</label>
+        <input type="search" id="filter-search" placeholder="例: 水戸、アルカス、IB-08201、公民館...">
+      </div>
+      <div class="control-group">
+        <label for="filter-muni" id="lbl-muni">自治体（全44市町村）</label>
+        <select id="filter-muni">
+          <option value="">すべての自治体 (44)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-cat" id="lbl-cat">施設区分 (Category)</label>
+        <select id="filter-cat">
+          <option value="">すべての区分</option>
+          <option value="Cat A">Cat A: 図書館法本則施設</option>
+          <option value="Cat B">Cat B: 法規指定分室・文庫</option>
+          <option value="Cat C">Cat C: 公民館図書室・窓口</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-scope" id="lbl-scope">統計集計単位</label>
+        <select id="filter-scope">
+          <option value="">すべての集計単位</option>
+          <option value="facility_level">単館統計 (facility_level)</option>
+          <option value="system_aggregate">システム合算 (system_aggregate)</option>
+          <option value="not_applicable">本館合算/単館未公表 (not_applicable)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="filter-ver" id="lbl-ver">検証状態 (Verification)</label>
+        <select id="filter-ver">
+          <option value="">すべての検証状態</option>
+          <option value="verified">全項目検証済 (verified)</option>
+          <option value="partially_verified">一部未確認あり (partially_verified)</option>
+        </select>
+      </div>
+    </section>
+
+    <div class="downloads-bar">
+      <div id="result-count" style="font-weight:700;">表示件数: 100 / 100 施設</div>
+      <div class="download-links">
+        <a href="./data/libraries.json" class="dl-chip" download>JSON (libraries.json)</a>
+        <a href="./data/libraries.csv" class="dl-chip" download>CSV (libraries.csv)</a>
+        <a href="./data/libraries_mymaps.csv" class="dl-chip" download>Google My Maps CSV</a>
+        <a href="./data/libraries.geojson" class="dl-chip" download>GeoJSON (libraries.geojson)</a>
+        <a href="./data/sources.json" class="dl-chip" download>Sources Metadata JSON</a>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th id="th-id">永続ID</th>
+            <th id="th-muni">自治体</th>
+            <th id="th-name">施設名称 / 区分</th>
+            <th id="th-loc">所在地・連絡先・開館年月</th>
+            <th id="th-bldg">延床面積 / 閲覧席数</th>
+            <th id="th-stats">所蔵資料数（集計単位・年度）</th>
+            <th id="th-ver">検証状態・出典参照</th>
+          </tr>
+        </thead>
+        <tbody id="facilities-tbody"></tbody>
+      </table>
+    </div>
+
+    <section class="references-section" id="references" aria-label="References">
+      <h2 id="ref-heading">References（参考文献・参照資料）</h2>
+      <ul class="ref-list" id="references-list"></ul>
+    </section>
+
+    <section class="license-box" aria-label="License and Attribution">
+      <strong>ライセンス・利用条件 (License &amp; Attribution):</strong>
+      本データセット（Canonical YAMLおよび派生JSON/CSV/GeoJSON）は
+      <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener noreferrer">クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0)</a>
+      の下で公開されています。各統計値・法規情報の原著作権および公表権は茨城県図書館協会および各市町村教育委員会に帰属します。原資料で確認されていない値は推測補完せず <code>null</code> および <code>unverified_fields</code> として厳格に区別しています。
+    </section>
+  </main>
+  <script src="./assets/app.js"></script>
+</body>
+</html>

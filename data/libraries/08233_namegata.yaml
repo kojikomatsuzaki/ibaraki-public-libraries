@@ -1,29 +1,57 @@
 municipality_code: "08233"
 municipality_name: "行方市"
+municipality_name_en: "Namegata City"
 audit_status: "IN_PROGRESS"
-notes: "市立図書館（玉造）および麻生・北浦公民館図書室の網羅を確認。図書室別統計の抽出が継続中"
+notes: "行方市立図書館（玉造）および麻生・北浦の2公民館図書室を収録。本館の開館年月(1981-08)・延面積(946.01㎡)・閲覧席数(30席)をSRC-0014 p.13に基づき修正。"
+uninvestigated_or_excluded_facilities: "麻生・北浦公民館図書室の単館面積・蔵書統計は未確認"
 facilities:
   - facility_id: "IB-08233-01"
     name: "行方市立図書館"
+    name_en: "Namegata City Library"
+    category: "Cat A"
     legal_status: "central_library"
     postal_code: "311-3511"
     address: "行方市玉造乙1175"
     phone: "0299-55-1495"
     fax: "0299-55-3452"
-    established_year_month: "1998-11"
-    opened_year_month: "1998-11"
-    building_structure: "鉄筋コンクリート造 地上1階"
-    floor_area_m2: 1070.78
-    reading_seats: 45
-    collection_count: 70810
+    established_year_month: "1981-08"
+    opened_year_month: "1981-08"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 946.01
+    reading_seats: 30
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 70810
+      annual_loans: null
+      breakdown:
+        general: 42077
+        children: 21301
+        local: 4001
+        av: 3431
+    history:
+      - date: "1981-08"
+        event: "創設"
+      - date: "1981-08"
+        event: "現館開館"
     sources:
       - "SRC-0011"
       - "SRC-0014"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.8)"
+      legal_basis: "SRC-0011 (第1条)"
+      building_and_capacity: "SRC-0014 (p.13)"
+      statistics: "SRC-0014 (p.21)"
     verification:
       status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0011およびSRC-0014 p.13, p.21に基づき全項目照合・修正完了"
+      unverified_fields: []
   - facility_id: "IB-08233-02"
     name: "行方市麻生公民館図書室"
+    name_en: "Namegata City Aso Community Center Reading Room"
+    category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "311-3832"
     address: "行方市麻生1229-8 麻生公民館内"
@@ -34,14 +62,35 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0011"
+    field_sources:
+      identity_and_location: "SRC-0011"
+      legal_basis: "SRC-0011"
+      building_and_capacity: "unverified"
+      statistics: "unverified"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "所在地・連絡先確認済み。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"
   - facility_id: "IB-08233-03"
     name: "行方市北浦公民館図書室"
+    name_en: "Namegata City Kitaura Community Center Reading Room"
+    category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "311-1704"
     address: "行方市山田2175 北浦公民館内"
@@ -52,9 +101,28 @@ facilities:
     building_structure: null
     floor_area_m2: null
     reading_seats: null
-    collection_count: null
+    statistics:
+      scope: "not_applicable"
+      fiscal_year: null
+      basis_date: null
+      collection_count: null
+      annual_loans: null
+      breakdown: null
+    history:
+      []
     sources:
       - "SRC-0011"
+    field_sources:
+      identity_and_location: "SRC-0011"
+      legal_basis: "SRC-0011"
+      building_and_capacity: "unverified"
+      statistics: "unverified"
     verification:
-      status: "verified"
+      status: "partially_verified"
       verified_at: "2026-10-15T05:38:20Z"
+      scope: "所在地・連絡先確認済み。面積・席数・単館統計は未確認"
+      unverified_fields:
+        - "established_year_month"
+        - "floor_area_m2"
+        - "reading_seats"
+        - "facility_level_collection_count"

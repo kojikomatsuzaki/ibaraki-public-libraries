@@ -1,26 +1,35 @@
 municipality_code: "08341"
 municipality_name: "大子町"
+municipality_name_en: "Daigo Town"
 audit_status: "IN_PROGRESS"
-notes: "大子町立中央公民館別館図書館プチ・ソフィア網羅確認"
+notes: "大子町公式HP(SRC-0018)およびSRC-0014に基づき、大子町立中央公民館別館図書室（愛称：図書館「プチ・ソフィア」）を収録。独立監査により所蔵数をSRC-0014 p.41の正確な49,885冊/点（貸出20,651冊/点）へ修正し、閲覧席数をnullに修正済み。"
+uninvestigated_or_excluded_facilities: "図書館法上の公立図書館は未設置（中央公民館別館図書室「プチ・ソフィア」が町の中心拠点）"
 facilities:
   - facility_id: "IB-08341-01"
-    name: "大子町立中央公民館別館図書館プチ・ソフィア"
+    name: "大子町立中央公民館別館図書室（図書館「プチ・ソフィア」）"
+    name_en: "Daigo Town Central Community Center Annex Library (Petit Sophia)"
     category: "Cat C"
     legal_status: "community_center_library"
     postal_code: "319-3551"
-    address: "久慈郡大子町池田2716-2"
+    address: "久慈郡大子町大字池田2716-2"
     phone: "0295-72-6123"
     fax: "0295-72-6123"
     established_year_month: "2005-04"
     opened_year_month: "2005-04"
     building_structure: "鉄筋コンクリート造"
     floor_area_m2: 224.0
-    reading_seats: 14
+    reading_seats: null
     statistics:
       scope: "facility_level"
       fiscal_year: 2024
       basis_date: "2025-03-31"
-      collection_count: 20651
+      collection_count: 49885
+      annual_loans: 20651
+      breakdown:
+        general: 28996
+        children: 20144
+        local: 573
+        av: 172
     history:
       - date: "2005-04"
         event: "創設"
@@ -28,7 +37,16 @@ facilities:
         event: "現館開館"
     sources:
       - "SRC-0014"
+      - "SRC-0018"
+    field_sources:
+      identity_and_location: "SRC-0014 (p.9), SRC-0018"
+      legal_basis: "SRC-0018 (中央公民館別館図書室)"
+      building_and_capacity: "SRC-0014 (p.40)"
+      statistics: "SRC-0014 (p.41, p.42)"
     verification:
-      status: "verified"
-      verified_at: "2026-10-15T05:30:00Z"
-      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+      status: "partially_verified"
+      verified_at: "2026-10-15T08:45:00Z"
+      scope: "SRC-0018およびSRC-0014 p.40-42に基づき所蔵数49,885・貸出数20,651に修正、未記載の閲覧席数をnullに修正"
+      unverified_fields:
+        - "ordinance_article"
+        - "reading_seats"
