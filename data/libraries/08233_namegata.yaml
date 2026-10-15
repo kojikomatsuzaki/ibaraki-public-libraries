@@ -1,0 +1,60 @@
+municipality_code: "08233"
+municipality_name: "行方市"
+audit_status: "IN_PROGRESS"
+notes: "市立図書館（玉造）および麻生・北浦公民館図書室の網羅を確認。図書室別統計の抽出が継続中"
+facilities:
+  - facility_id: "IB-08233-01"
+    name: "行方市立図書館"
+    legal_status: "central_library"
+    postal_code: "311-3511"
+    address: "行方市玉造乙1175"
+    phone: "0299-55-1495"
+    fax: "0299-55-3452"
+    established_year_month: "1998-11"
+    opened_year_month: "1998-11"
+    building_structure: "鉄筋コンクリート造 地上1階"
+    floor_area_m2: 1070.78
+    reading_seats: 45
+    collection_count: 70810
+    sources:
+      - "SRC-0011"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08233-02"
+    name: "行方市麻生公民館図書室"
+    legal_status: "community_center_library"
+    postal_code: "311-3832"
+    address: "行方市麻生1229-8 麻生公民館内"
+    phone: "0299-72-1593"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0011"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"
+  - facility_id: "IB-08233-03"
+    name: "行方市北浦公民館図書室"
+    legal_status: "community_center_library"
+    postal_code: "311-1704"
+    address: "行方市山田2175 北浦公民館内"
+    phone: "0291-35-2410"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0011"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"

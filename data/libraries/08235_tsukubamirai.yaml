@@ -1,0 +1,60 @@
+municipality_code: "08235"
+municipality_name: "つくばみらい市"
+audit_status: "IN_PROGRESS"
+notes: "本館・小絹分館・みらい平分館の3館体制（条例第2条）の網羅を確認。分館別の詳細内訳統計抽出が継続中"
+facilities:
+  - facility_id: "IB-08235-01"
+    name: "つくばみらい市立図書館"
+    legal_status: "central_library"
+    postal_code: "300-2341"
+    address: "つくばみらい市福田623"
+    phone: "0297-58-3710"
+    fax: "0297-58-3767"
+    established_year_month: "1991-10"
+    opened_year_month: "1991-10"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 1699.00
+    reading_seats: 80
+    collection_count: 214718
+    sources:
+      - "SRC-0013"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08235-02"
+    name: "つくばみらい市立図書館 小絹分館"
+    legal_status: "branch_library"
+    postal_code: "300-2445"
+    address: "つくばみらい市小絹848 小絹コミュニティセンター内"
+    phone: "0297-52-5111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0013"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"
+  - facility_id: "IB-08235-03"
+    name: "つくばみらい市立図書館 みらい平分館"
+    legal_status: "branch_library"
+    postal_code: "300-2358"
+    address: "つくばみらい市紫峰ヶ丘4-4-1 みらい平コミュニティセンター内"
+    phone: "0297-58-2111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0013"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"

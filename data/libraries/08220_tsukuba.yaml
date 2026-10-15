@@ -1,0 +1,96 @@
+municipality_code: "08220"
+municipality_name: "つくば市"
+audit_status: "IN_PROGRESS"
+notes: "中央図書館および令和7年1月施行条例により正式分室となった4室（谷田部・筑波・小野川・茎崎）の網羅を確認。分室別統計の抽出が継続中"
+facilities:
+  - facility_id: "IB-08220-01"
+    name: "つくば市立中央図書館"
+    legal_status: "central_library"
+    postal_code: "305-0031"
+    address: "つくば市吾妻2-8 つくば文化会館アルス内"
+    phone: "029-856-4311"
+    fax: "029-856-6277"
+    established_year_month: "1986-06"
+    opened_year_month: "1990-10"
+    building_structure: "鉄筋コンクリート造 地下1階 地上3階"
+    floor_area_m2: 4426.68
+    reading_seats: 192
+    collection_count: 314309
+    sources:
+      - "SRC-0006"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08220-02"
+    name: "つくば市立中央図書館 谷田部交流センター図書室"
+    legal_status: "branch_room"
+    postal_code: "305-0861"
+    address: "つくば市谷田部4711 谷田部交流センター内"
+    phone: "029-836-0567"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0006"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"
+  - facility_id: "IB-08220-03"
+    name: "つくば市立中央図書館 筑波交流センター図書室"
+    legal_status: "branch_room"
+    postal_code: "300-4231"
+    address: "つくば市北条5060 筑波交流センター内"
+    phone: "029-867-0050"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0006"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"
+  - facility_id: "IB-08220-04"
+    name: "つくば市立中央図書館 小野川交流センター図書室"
+    legal_status: "branch_room"
+    postal_code: "305-0063"
+    address: "つくば市館野5 小野川交流センター内"
+    phone: "029-851-8201"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0006"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"
+  - facility_id: "IB-08220-05"
+    name: "つくば市立中央図書館 茎崎交流センター図書室"
+    legal_status: "branch_room"
+    postal_code: "300-1255"
+    address: "つくば市小茎318 茎崎交流センター内"
+    phone: "029-876-0275"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0006"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"

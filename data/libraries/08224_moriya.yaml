@@ -1,0 +1,96 @@
+municipality_code: "08224"
+municipality_name: "守谷市"
+audit_status: "IN_PROGRESS"
+notes: "守谷中央図書館および4公民館図書室（規則第4条分室位置づけ）の網羅を確認。分室別統計の抽出が継続中"
+facilities:
+  - facility_id: "IB-08224-01"
+    name: "守谷中央図書館"
+    legal_status: "central_library"
+    postal_code: "302-0116"
+    address: "守谷市大柏937-2"
+    phone: "0297-45-1000"
+    fax: "0297-45-7500"
+    established_year_month: "1995-05"
+    opened_year_month: "1995-05"
+    building_structure: "鉄筋コンクリート造 地上3階"
+    floor_area_m2: 3522.73
+    reading_seats: 179
+    collection_count: 444191
+    sources:
+      - "SRC-0007"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08224-02"
+    name: "守谷市立図書館 中央公民館図書室"
+    legal_status: "branch_room"
+    postal_code: "302-0110"
+    address: "守谷市百合ケ丘2-2540-1 中央公民館内"
+    phone: "0297-48-6731"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0007"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"
+  - facility_id: "IB-08224-03"
+    name: "守谷市立図書館 郷州公民館図書室"
+    legal_status: "branch_room"
+    postal_code: "302-0118"
+    address: "守谷市みずき野5-3-3 郷州公民館内"
+    phone: "0297-48-6711"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0007"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"
+  - facility_id: "IB-08224-04"
+    name: "守谷市立図書館 高野公民館図書室"
+    legal_status: "branch_room"
+    postal_code: "302-0125"
+    address: "守谷市高野1142 高野公民館内"
+    phone: "0297-45-5411"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0007"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"
+  - facility_id: "IB-08224-05"
+    name: "守谷市立図書館 北守谷公民館図書室"
+    legal_status: "branch_room"
+    postal_code: "302-0104"
+    address: "守谷市板戸井1977-2 北守谷公民館内"
+    phone: "0297-47-0111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0007"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"

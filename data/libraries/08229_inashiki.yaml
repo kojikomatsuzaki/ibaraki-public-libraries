@@ -1,0 +1,78 @@
+municipality_code: "08229"
+municipality_name: "稲敷市"
+audit_status: "IN_PROGRESS"
+notes: "稲敷市立図書館および3公民館図書室（規程第2条）の網羅を確認。図書室別統計の抽出が継続中"
+facilities:
+  - facility_id: "IB-08229-01"
+    name: "稲敷市立図書館"
+    legal_status: "central_library"
+    postal_code: "300-0736"
+    address: "稲敷市八千石18-1"
+    phone: "0299-79-3111"
+    fax: "0299-79-3113"
+    established_year_month: "1996-04"
+    opened_year_month: "1996-04"
+    building_structure: "鉄骨造 地上1階"
+    floor_area_m2: 1724.00
+    reading_seats: 58
+    collection_count: 157758
+    sources:
+      - "SRC-0010"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08229-02"
+    name: "稲敷市江戸崎中央公民館図書室"
+    legal_status: "community_center_library"
+    postal_code: "300-0504"
+    address: "稲敷市江戸崎甲2148-2 江戸崎中央公民館内"
+    phone: "029-892-2000"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0010"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"
+  - facility_id: "IB-08229-03"
+    name: "稲敷市新利根公民館図書室"
+    legal_status: "community_center_library"
+    postal_code: "300-1412"
+    address: "稲敷市柴崎7430 新利根公民館内"
+    phone: "0299-79-2111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0010"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"
+  - facility_id: "IB-08229-04"
+    name: "稲敷市桜川地区センター図書室"
+    legal_status: "community_center_library"
+    postal_code: "300-0623"
+    address: "稲敷市須賀津208 桜川地区センター内"
+    phone: "0299-79-2111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0010"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:38:20Z"

@@ -1,0 +1,42 @@
+municipality_code: "08222"
+municipality_name: "鹿嶋市"
+audit_status: "IN_PROGRESS"
+notes: "中央図書館および大野分館（規則第2条）の網羅を確認。分館別の詳細統計抽出が継続中"
+facilities:
+  - facility_id: "IB-08222-01"
+    name: "鹿嶋市立中央図書館"
+    legal_status: "central_library"
+    postal_code: "314-0031"
+    address: "鹿嶋市宮中2398-1"
+    phone: "0299-83-2510"
+    fax: "0299-83-2529"
+    established_year_month: "1985-10"
+    opened_year_month: "1985-10"
+    building_structure: "鉄筋コンクリート造 平屋1階"
+    floor_area_m2: 1724.38
+    reading_seats: 60
+    collection_count: 193070
+    sources:
+      - "SRC-0005"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08222-02"
+    name: "鹿嶋市立中央図書館 大野分館"
+    legal_status: "branch_library"
+    postal_code: "314-0472"
+    address: "鹿嶋市津賀1919-1 大野ふれあいセンター内"
+    phone: "0299-69-1111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0005"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:35:10Z"

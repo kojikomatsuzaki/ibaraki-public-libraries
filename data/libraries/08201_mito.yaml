@@ -1,0 +1,113 @@
+municipality_code: "08201"
+municipality_name: "水戸市"
+audit_status: "IN_PROGRESS"
+notes: "全6館の法規設置根拠および令和7年度茨城の図書館による個別統計数値を照合完了。地区館別の詳細職員配置内訳の照合が継続中"
+facilities:
+  - facility_id: "IB-08201-01"
+    name: "水戸市立中央図書館"
+    legal_status: "central_library"
+    postal_code: "310-0062"
+    address: "水戸市大町3-3-20"
+    phone: "029-226-3951"
+    fax: "029-225-2769"
+    established_year_month: "1944-10"
+    opened_year_month: "1980-07"
+    building_structure: "鉄筋コンクリート造 地下1階 地上4階"
+    floor_area_m2: 2917.96
+    reading_seats: 156
+    collection_count: 446102
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08201-02"
+    name: "水戸市立東部図書館"
+    legal_status: "branch_library"
+    postal_code: "310-0836"
+    address: "水戸市元吉田町1973-27"
+    phone: "029-248-4051"
+    fax: "029-248-2405"
+    established_year_month: "1989-04"
+    opened_year_month: "1989-04"
+    building_structure: "鉄筋コンクリート造 地上2階一部地下1階"
+    floor_area_m2: 1802.42
+    reading_seats: 96
+    collection_count: 125661
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08201-03"
+    name: "水戸市立西部図書館"
+    legal_status: "branch_library"
+    postal_code: "310-0903"
+    address: "水戸市堀町2311-1"
+    phone: "029-255-5651"
+    fax: "029-255-5669"
+    established_year_month: "1992-04"
+    opened_year_month: "1992-04"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 1991.28
+    reading_seats: 124
+    collection_count: 108382
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08201-04"
+    name: "水戸市立見和図書館"
+    legal_status: "branch_library"
+    postal_code: "310-0911"
+    address: "水戸市見和2-500-2"
+    phone: "029-350-2051"
+    fax: "029-350-2751"
+    established_year_month: "2006-04"
+    opened_year_month: "2006-04"
+    building_structure: "鉄筋コンクリート造 一部地上2階"
+    floor_area_m2: 1994.12
+    reading_seats: 109
+    collection_count: 174370
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08201-05"
+    name: "水戸市立常澄図書館"
+    legal_status: "branch_library"
+    postal_code: "311-1115"
+    address: "水戸市大串町2134"
+    phone: "029-269-1751"
+    fax: "029-269-1139"
+    established_year_month: "2008-04"
+    opened_year_month: "2008-04"
+    building_structure: "鉄筋コンクリート造 地上3階"
+    floor_area_m2: 550.15
+    reading_seats: 33
+    collection_count: 77797
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08201-06"
+    name: "水戸市立内原図書館"
+    legal_status: "branch_library"
+    postal_code: "319-0315"
+    address: "水戸市内原町1497-16"
+    phone: "029-291-6451"
+    fax: "029-259-6810"
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: 102639
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"

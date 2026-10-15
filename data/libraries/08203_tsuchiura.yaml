@@ -1,0 +1,102 @@
+municipality_code: "08203"
+municipality_name: "土浦市"
+audit_status: "IN_PROGRESS"
+notes: "アルカス土浦本館および4分館（規則第3条）の全網羅を確認。分館別の詳細蔵書内訳の抽出が継続中"
+facilities:
+  - facility_id: "IB-08203-01"
+    name: "土浦市立図書館"
+    legal_status: "central_library"
+    postal_code: "300-0036"
+    address: "土浦市大和町1-1"
+    phone: "029-823-4646"
+    fax: "029-822-3316"
+    established_year_month: "1924-04"
+    opened_year_month: "2017-11"
+    building_structure: "鉄骨造 地下1階 地上4階"
+    floor_area_m2: 4921.21
+    reading_seats: 334
+    collection_count: 517280
+    sources:
+      - "SRC-0001"
+      - "SRC-0002"
+      - "SRC-0003"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08203-02"
+    name: "土浦市立図書館 三中地区分館"
+    legal_status: "branch_library"
+    postal_code: "300-0837"
+    address: "土浦市中村南4-8-35 三中地区公民館内"
+    phone: "029-841-0161"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0001"
+      - "SRC-0002"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:20:03Z"
+  - facility_id: "IB-08203-03"
+    name: "土浦市立図書館 都和分館"
+    legal_status: "branch_library"
+    postal_code: "300-0061"
+    address: "土浦市並木5-4824 都和公民館内"
+    phone: "029-831-2670"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0001"
+      - "SRC-0002"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:20:03Z"
+  - facility_id: "IB-08203-04"
+    name: "土浦市立図書館 神立地区分館"
+    legal_status: "branch_library"
+    postal_code: "300-0011"
+    address: "土浦市神立中央5-11-5 神立地区コミュニティセンター内"
+    phone: "029-831-6101"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0001"
+      - "SRC-0002"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:20:03Z"
+  - facility_id: "IB-08203-05"
+    name: "土浦市立図書館 新治地区分館"
+    legal_status: "branch_library"
+    postal_code: "300-4115"
+    address: "土浦市藤沢982 新治地区公民館内"
+    phone: "029-862-2005"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0001"
+      - "SRC-0002"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:20:03Z"

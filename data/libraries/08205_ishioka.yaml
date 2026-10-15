@@ -1,0 +1,60 @@
+municipality_code: "08205"
+municipality_name: "石岡市"
+audit_status: "IN_PROGRESS"
+notes: "中央図書館・こども図書館本の森（別棟）・郷の本棚やさと図書館（条例第3条）の網羅を確認。分館別の詳細統計抽出が継続中"
+facilities:
+  - facility_id: "IB-08205-01"
+    name: "石岡市立中央図書館"
+    legal_status: "central_library"
+    postal_code: "315-0017"
+    address: "石岡市若宮1-6-31"
+    phone: "0299-24-1507"
+    fax: "0299-24-1508"
+    established_year_month: "1982-10"
+    opened_year_month: "1982-10"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 1640.23
+    reading_seats: 103
+    collection_count: 218287
+    sources:
+      - "SRC-0004"
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+  - facility_id: "IB-08205-02"
+    name: "石岡市立こども図書館 本の森"
+    legal_status: "annex_facility"
+    postal_code: "315-0017"
+    address: "石岡市若宮1-6-31（中央図書館敷地内別棟）"
+    phone: "0299-24-1507"
+    fax: "0299-24-1508"
+    established_year_month: "2017-04"
+    opened_year_month: "2017-04"
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0004"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:20:03Z"
+  - facility_id: "IB-08205-03"
+    name: "石岡市郷の本棚やさと図書館"
+    legal_status: "branch_library"
+    postal_code: "315-0116"
+    address: "石岡市柿岡5680-1 八郷総合支所内"
+    phone: "0299-43-1111"
+    fax: null
+    established_year_month: null
+    opened_year_month: null
+    building_structure: null
+    floor_area_m2: null
+    reading_seats: null
+    collection_count: null
+    sources:
+      - "SRC-0004"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:20:03Z"
