@@ -1,0 +1,92 @@
+municipality_code: "08221"
+municipality_name: "ひたちなか市"
+audit_status: "IN_PROGRESS"
+notes: "中央図書館・那珂湊図書館・佐野図書館の3館体制網羅確認"
+facilities:
+  - facility_id: "IB-08221-01"
+    name: "ひたちなか市立中央図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "312-0044"
+    address: "ひたちなか市元町5-3"
+    phone: "029-273-2247"
+    fax: "029-274-5071"
+    established_year_month: "1974-04"
+    opened_year_month: "1974-05"
+    building_structure: "鉄筋コンクリート造 2階建"
+    floor_area_m2: 1868.14
+    reading_seats: 155
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 261524
+    history:
+      - date: "1974-04"
+        event: "創設"
+      - date: "1974-05"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08221-02"
+    name: "ひたちなか市立那珂湊図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "311-1293"
+    address: "ひたちなか市鍛冶屋窪3566"
+    phone: "029-263-5499"
+    fax: "029-263-2592"
+    established_year_month: "1967-04"
+    opened_year_month: "1978-05"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 984.75
+    reading_seats: 40
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 102210
+    history:
+      - date: "1967-04"
+        event: "創設"
+      - date: "1978-05"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08221-03"
+    name: "ひたちなか市立佐野図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "312-0062"
+    address: "ひたちなか市高場1362-1"
+    phone: "029-270-3811"
+    fax: "029-202-0760"
+    established_year_month: "1999-10"
+    opened_year_month: "1999-10"
+    building_structure: "鉄筋コンクリート造 一部鉄骨造2階建"
+    floor_area_m2: 1488.34
+    reading_seats: 48
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 149791
+    history:
+      - date: "1999-10"
+        event: "創設"
+      - date: "1999-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

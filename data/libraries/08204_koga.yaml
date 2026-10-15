@@ -1,0 +1,63 @@
+municipality_code: "08204"
+municipality_name: "古河市"
+audit_status: "IN_PROGRESS"
+notes: "三和図書館・古河図書館の2館網羅確認。総和図書室等の公民館窓口調査中"
+facilities:
+  - facility_id: "IB-08204-01"
+    name: "古河市三和図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "306-0125"
+    address: "古河市仁連2042-1 古河市三和資料館併設"
+    phone: "0280-75-1511"
+    fax: "0280-75-1510"
+    established_year_month: "2000-04"
+    opened_year_month: "2000-04"
+    building_structure: "鉄筋・鉄骨コンクリート 地上2階建"
+    floor_area_m2: 2902.25
+    reading_seats: 119
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 33651
+    history:
+      - date: "2000-04"
+        event: "創設"
+      - date: "2000-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08204-02"
+    name: "古河市古河図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "306-0011"
+    address: "古河市東3-7-19 古河市古河東公民館併設"
+    phone: "0280-32-5299"
+    fax: "0280-32-9521"
+    established_year_month: "1984-04"
+    opened_year_month: "1984-04"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 638.38
+    reading_seats: 57
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 129845
+    history:
+      - date: "1984-04"
+        event: "創設"
+      - date: "1984-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

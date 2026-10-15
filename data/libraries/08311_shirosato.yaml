@@ -1,0 +1,63 @@
+municipality_code: "08311"
+municipality_name: "城里町"
+audit_status: "IN_PROGRESS"
+notes: "城里町立桂図書館およびコミュニティセンター城里図書室の2拠点網羅確認"
+facilities:
+  - facility_id: "IB-08311-01"
+    name: "城里町立桂図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "311-4344"
+    address: "東茨城郡城里町阿波山173-2 役場桂支所併設"
+    phone: "029-289-4946"
+    fax: "029-289-4270"
+    established_year_month: "1998-07"
+    opened_year_month: "1998-07"
+    building_structure: "鉄筋コンクリート造 一部2階"
+    floor_area_m2: 1936.65
+    reading_seats: 70
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 104267
+    history:
+      - date: "1998-07"
+        event: "創設"
+      - date: "1998-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08311-02"
+    name: "コミュニティセンター城里図書室"
+    category: "Cat C"
+    legal_status: "community_center_library"
+    postal_code: "311-4303"
+    address: "東茨城郡城里町石塚1428-1"
+    phone: "029-288-6100"
+    fax: "029-288-6130"
+    established_year_month: "1992-03"
+    opened_year_month: "1992-03"
+    building_structure: "鉄筋コンクリート造 地上3階"
+    floor_area_m2: 413.0
+    reading_seats: 17
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 14712
+    history:
+      - date: "1992-03"
+        event: "創設"
+      - date: "1992-03"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

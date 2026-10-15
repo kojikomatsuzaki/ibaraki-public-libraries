@@ -1,0 +1,34 @@
+municipality_code: "08226"
+municipality_name: "那珂市"
+audit_status: "IN_PROGRESS"
+notes: "那珂市立図書館網羅確認。平成18年開館"
+facilities:
+  - facility_id: "IB-08226-01"
+    name: "那珂市立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "311-0105"
+    address: "那珂市菅谷2995-1"
+    phone: "029-352-1177"
+    fax: "029-352-1178"
+    established_year_month: "2006-04"
+    opened_year_month: "2006-10"
+    building_structure: "鉄筋コンクリート造（一部鉄骨造） 地上2階"
+    floor_area_m2: 3609.69
+    reading_seats: 170
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 258605
+    history:
+      - date: "2006-04"
+        event: "創設"
+      - date: "2006-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

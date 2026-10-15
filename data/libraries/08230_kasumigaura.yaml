@@ -1,0 +1,34 @@
+municipality_code: "08230"
+municipality_name: "かすみがうら市"
+audit_status: "IN_PROGRESS"
+notes: "市立図書館（霞ヶ浦コミュニティセンター内）網羅確認。千代田分館等の移転状況調査中"
+facilities:
+  - facility_id: "IB-08230-01"
+    name: "かすみがうら市立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "300-0134"
+    address: "かすみがうら市深谷3719-1 霞ヶ浦コミュニティセンター内"
+    phone: "029-897-0647"
+    fax: "029-897-0385"
+    established_year_month: "1963-03"
+    opened_year_month: "1998-04"
+    building_structure: "鉄筋・鉄骨コンクリート"
+    floor_area_m2: 1127.0
+    reading_seats: 64
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 115322
+    history:
+      - date: "1963-03"
+        event: "創設"
+      - date: "1998-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

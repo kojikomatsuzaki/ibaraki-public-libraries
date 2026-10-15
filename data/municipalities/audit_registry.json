@@ -1,0 +1,1014 @@
+{
+  "08201": {
+    "name_ja": "水戸市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "水戸市立図書館条例・施行規則",
+        "url": "https://www.city.mito.lg.jp/uploaded/attachment/57414.pdf",
+        "confirmed_content": "中央図書館および東部・西部・見和・常澄・内原の5地区館の設置根拠"
+      },
+      "facility": {
+        "url": "https://www.library-mito.jp/facility/central.html",
+        "confirmed_content": "中央図書館および東部・西部・見和・常澄・内原地区館の施設情報"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "全6館個別所蔵数確認（中央446,102冊、東部125,661冊、西部108,382冊、見和174,370冊、常澄77,797冊、内原102,639冊）。地区館別職員配置内訳が未完了"
+      }
+    },
+    "notes": "全6館の個別統計照合済み。職員配置等の詳細内訳照合が継続中"
+  },
+  "08202": {
+    "name_ja": "日立市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "日立市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "日立市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08203": {
+    "name_ja": "土浦市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "土浦市立図書館条例施行規則",
+        "url": "https://www.t-lib.jp/lib/files/libimg1686132626.pdf",
+        "confirmed_content": "第3条における三中地区分館、都和分館、神立地区分館、新治地区分館の設置規定"
+      },
+      "facility": {
+        "url": "https://www.t-lib.jp/facility/annex.html",
+        "confirmed_content": "アルカス土浦本館および4分館の開館時間・休館日・所在地"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "土浦市立図書館蔵書517,280冊を確認。分館別の蔵書・貸出統計詳細抽出が継続中"
+      }
+    },
+    "notes": "4分館の存在・規則根拠確認済み。分館別統計内訳の照合が継続中"
+  },
+  "08204": {
+    "name_ja": "古河市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "古河市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "古河市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08205": {
+    "name_ja": "石岡市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "石岡市立中央図書館条例",
+        "url": "https://www1.g-reiki.net/isioka.city/reiki_honbun/r310RG00000322.html",
+        "confirmed_content": "第2条（中央図書館）、第3条（石岡市郷の本棚やさと図書館）。こども図書館本の森は中央館敷地内別棟扱い"
+      },
+      "facility": {
+        "url": "https://lib.city.ishioka.lg.jp/annai/page000387.html",
+        "confirmed_content": "中央館、こども図書館本の森、郷の本棚やさと館、公民館図書室の現況"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "石岡市立中央図書館蔵書218,287冊を確認。分館・別棟別の統計詳細抽出が継続中"
+      }
+    },
+    "notes": "3拠点網羅確認済み。館別詳細統計の抽出が継続中"
+  },
+  "08207": {
+    "name_ja": "結城市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "結城市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "結城市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08208": {
+    "name_ja": "龍ケ崎市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "龍ケ崎市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "龍ケ崎市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08210": {
+    "name_ja": "下妻市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "下妻市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "下妻市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08211": {
+    "name_ja": "常総市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "常総市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "常総市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08212": {
+    "name_ja": "常陸太田市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "常陸太田市立図書館の設置及び管理に関する条例施行規則",
+        "url": "https://www.city.hitachiota.ibaraki.jp/data/reiki/reiki_honbun/e012RG00000886.html",
+        "confirmed_content": "本館および金砂郷・水府・里美の各分室の管理運営規定"
+      },
+      "facility": {
+        "url": "https://www.city.hitachiota.ibaraki.jp/kyoiku-bunka-sports/library/guide/page007039.html",
+        "confirmed_content": "本館、金砂郷分室、水府分室、里美分室の4拠点を確認"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "常陸太田市立図書館蔵書251,430冊を確認。分室別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "本館＋3分室確認済み。分室別内訳統計の抽出が継続中"
+  },
+  "08214": {
+    "name_ja": "高萩市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "高萩市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "高萩市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08215": {
+    "name_ja": "北茨城市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "北茨城市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "北茨城市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08216": {
+    "name_ja": "笠間市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "笠間市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "笠間市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08217": {
+    "name_ja": "取手市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "取手市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "取手市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08219": {
+    "name_ja": "牛久市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "牛久市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "牛久市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08220": {
+    "name_ja": "つくば市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "つくば市立図書館条例",
+        "url": "https://www1.g-reiki.net/tsukuba/reiki_honbun/e019RG00001395.html",
+        "confirmed_content": "第2条第1項（中央図書館：吾妻二丁目8番地）及び第2項（分室：谷田部・筑波・小野川・茎崎交流センター内図書室）"
+      },
+      "facility": {
+        "url": "https://www.city.tsukuba.lg.jp/library/index.html",
+        "confirmed_content": "中央図書館、谷田部・筑波・小野川・茎崎図書室等"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "つくば市立中央図書館蔵書314,309冊を確認。分室別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "R7.1施行条例による4分室規定確認済み。分室別内訳統計の抽出が継続中"
+  },
+  "08221": {
+    "name_ja": "ひたちなか市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "ひたちなか市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "ひたちなか市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08222": {
+    "name_ja": "鹿嶋市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "鹿嶋市立図書館管理運営規則",
+        "url": "https://city.kashima.ibaraki.jp/13reiki/reiki_honbun/e021RG00000244.html",
+        "confirmed_content": "第2条（中央図書館および大野分館［大野ふれあいセンター内］の設置規定）"
+      },
+      "facility": {
+        "url": "https://opac.city.kashima.ibaraki.jp/facility/ohno.html",
+        "confirmed_content": "中央図書館、大野分館（大野ふれあいセンター内）"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "鹿嶋市立中央図書館蔵書193,070冊を確認。大野分館の内訳統計抽出が継続中"
+      }
+    },
+    "notes": "大野分館の規則設置根拠確認済み。分館別統計内訳の抽出が継続中"
+  },
+  "08223": {
+    "name_ja": "潮来市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "潮来市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "潮来市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08224": {
+    "name_ja": "守谷市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "守谷市立図書館等管理運営規則",
+        "url": "https://www1.g-reiki.net/city.moriya/reiki_honbun/e084RG00000253.html",
+        "confirmed_content": "第1条および第4条（守谷中央図書館および中央・郷州・高野・北守谷の4公民館図書室を分室と規定）"
+      },
+      "facility": {
+        "url": "https://www.city.moriya.ibaraki.jp/library/annai/1003920.html",
+        "confirmed_content": "中央図書館、中央・郷州・高野・北守谷の公民館図書室"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "守谷中央図書館蔵書444,191冊を確認。公民館図書室別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "4公民館図書室の分室位置づけ確認済み。分室別統計内訳の抽出が継続中"
+  },
+  "08225": {
+    "name_ja": "常陸大宮市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "常陸大宮市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "常陸大宮市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08226": {
+    "name_ja": "那珂市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "那珂市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "那珂市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08227": {
+    "name_ja": "筑西市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "筑西市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "筑西市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08228": {
+    "name_ja": "坂東市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "坂東市立図書館の設置及び管理等に関する条例",
+        "url": "https://www.city.bando.lg.jp/data/reiki/reiki_honbun/r155RG00000270.html",
+        "confirmed_content": "第2条（設置施設：岩井図書館［岩井5082番地］、猿島図書館［山2726番地］）"
+      },
+      "facility": {
+        "url": "https://www.city.bando.lg.jp/page/page001422.html",
+        "confirmed_content": "岩井図書館（ベルフォーレ）、猿島図書館（ミューズ）の開館時間・所在地"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "岩井図書館140,739冊、猿島図書館66,633冊を確認。館別利用詳細実績の照合が継続中"
+      }
+    },
+    "notes": "2館とも条例設置本館級。館別所蔵統計照合済み、利用詳細内訳の照合が継続中"
+  },
+  "08229": {
+    "name_ja": "稲敷市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "稲敷市立図書館条例・公民館図書室管理運営規程",
+        "url": "https://www.city.inashiki.lg.jp/reiki_int/reiki_honbun/r168RG00001273.html",
+        "confirmed_content": "条例による図書館（本館）設置及び規程（令和7年4月施行）による江戸崎中央・新利根・桜川公民館図書室"
+      },
+      "facility": {
+        "url": "https://www.city.inashiki.lg.jp/page/dir000911.html",
+        "confirmed_content": "市立図書館、江戸崎中央・新利根・桜川の各公民館図書室"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "稲敷市立図書館蔵書157,758冊を確認。図書室別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "本館＋3公民館図書室網羅確認済み。図書室別統計内訳の抽出が継続中"
+  },
+  "08230": {
+    "name_ja": "かすみがうら市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "かすみがうら市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "かすみがうら市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08231": {
+    "name_ja": "桜川市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "桜川市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "桜川市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08232": {
+    "name_ja": "神栖市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "神栖市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "神栖市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08233": {
+    "name_ja": "行方市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "行方市立図書館条例施行規則",
+        "url": "https://www.city.namegata.ibaraki.jp/gyousei/reiki/reiki_int/reiki_honbun/r228RG00000269.html",
+        "confirmed_content": "市立図書館の管理運営及び麻生・北浦公民館図書室との連携"
+      },
+      "facility": {
+        "url": "https://www.city.namegata.ibaraki.jp/namegata-tosyo/",
+        "confirmed_content": "市立図書館（玉造）、麻生・北浦公民館図書室"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "行方市立図書館蔵書70,810冊を確認。公民館図書室別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "玉造本館＋2公民館図書室確認済み。図書室別統計内訳の抽出が継続中"
+  },
+  "08234": {
+    "name_ja": "鉾田市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "鉾田市立図書館管理運営規則",
+        "url": "https://www.city.hokota.lg.jp/reiki_int/reiki_honbun/r229RG00000971.html",
+        "confirmed_content": "旭文庫（旭公民館内）、大洋文庫（大洋公民館内）の設置根拠"
+      },
+      "facility": {
+        "url": "https://www.city.hokota.lg.jp/sp/page/page001689.html",
+        "confirmed_content": "鉾田市立図書館、旭文庫・大洋文庫"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "鉾田市立図書館蔵書80,971冊を確認。文庫別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "本館＋2文庫網羅確認済み。文庫別詳細統計の照合が継続中"
+  },
+  "08235": {
+    "name_ja": "つくばみらい市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": "つくばみらい市立図書館条例",
+        "url": "https://www.city.tsukubamirai.lg.jp/reiki_int/reiki_honbun/r339RG00000447.html",
+        "confirmed_content": "第2条（本館［福田623］、小絹分館［小絹848］、みらい平分館［紫峰ヶ丘4-4-1］）"
+      },
+      "facility": {
+        "url": "https://lib.city.tsukubamirai.lg.jp/",
+        "confirmed_content": "本館、小絹分館、みらい平分館の開館時間・アクセス"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "つくばみらい市立図書館蔵書214,718冊を確認。分館別統計内訳の抽出が継続中"
+      }
+    },
+    "notes": "本館＋2分館網羅確認済み。分館別詳細内訳統計の抽出が継続中"
+  },
+  "08236": {
+    "name_ja": "小美玉市",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "小美玉市の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "小美玉市の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08309": {
+    "name_ja": "茨城町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "茨城町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "茨城町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08310": {
+    "name_ja": "大洗町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "大洗町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "大洗町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08311": {
+    "name_ja": "城里町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "城里町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "城里町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08341": {
+    "name_ja": "大子町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "大子町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "大子町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08342": {
+    "name_ja": "東海村",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "東海村の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "東海村の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08442": {
+    "name_ja": "阿見町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "阿見町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "阿見町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08443": {
+    "name_ja": "河内町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "河内町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "河内町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08447": {
+    "name_ja": "美浦村",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "美浦村の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "美浦村の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08521": {
+    "name_ja": "八千代町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "八千代町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "八千代町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08542": {
+    "name_ja": "五霞町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "五霞町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "五霞町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08546": {
+    "name_ja": "境町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "境町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "境町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  },
+  "08564": {
+    "name_ja": "利根町",
+    "status": "IN_PROGRESS",
+    "pillars": {
+      "legal": {
+        "title": null,
+        "url": null,
+        "confirmed_content": null
+      },
+      "facility": {
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "confirmed_content": "利根町の施設所在地・電話・延面積・開館年月を照合"
+      },
+      "statistics": {
+        "title": "令和７年度茨城の図書館（茨城県図書館協会）",
+        "url": "https://www.lib.pref.ibaraki.jp/assets/R7ibarakinotoshokan.pdf",
+        "fiscal_year": 2024,
+        "basis_date": "2025-03-31",
+        "confirmed_content": "利根町の公立図書館・主要公民館図書室の名簿・施設規模・所蔵数を照合"
+      }
+    },
+    "notes": "協会公式統計・名簿により施設基本情報を照合済み。個別条例および詳細利用内訳の照合が継続中"
+  }
+}

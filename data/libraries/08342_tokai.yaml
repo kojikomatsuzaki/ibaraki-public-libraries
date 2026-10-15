@@ -1,0 +1,34 @@
+municipality_code: "08342"
+municipality_name: "東海村"
+audit_status: "IN_PROGRESS"
+notes: "東海村立図書館網羅確認。平成23年現館開館"
+facilities:
+  - facility_id: "IB-08342-01"
+    name: "東海村立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "319-1115"
+    address: "那珂郡東海村船場774-5 教育支援センター併設"
+    phone: "029-282-3435"
+    fax: "029-282-0224"
+    established_year_month: "1985-08"
+    opened_year_month: "2011-10"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 3442.6
+    reading_seats: 182
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 272193
+    history:
+      - date: "1985-08"
+        event: "創設"
+      - date: "2011-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

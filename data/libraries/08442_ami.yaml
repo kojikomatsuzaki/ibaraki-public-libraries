@@ -1,0 +1,34 @@
+municipality_code: "08442"
+municipality_name: "阿見町"
+audit_status: "IN_PROGRESS"
+notes: "阿見町立図書館網羅確認。平成元年開館"
+facilities:
+  - facility_id: "IB-08442-01"
+    name: "阿見町立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "300-0333"
+    address: "稲敷郡阿見町若栗1838-24"
+    phone: "029-887-6331"
+    fax: "029-887-9268"
+    established_year_month: "1989-03"
+    opened_year_month: "1989-08"
+    building_structure: "鉄筋コンクリート造 一部2階"
+    floor_area_m2: 1630.0
+    reading_seats: 187
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 160453
+    history:
+      - date: "1989-03"
+        event: "創設"
+      - date: "1989-08"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

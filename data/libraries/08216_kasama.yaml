@@ -1,0 +1,92 @@
+municipality_code: "08216"
+municipality_name: "笠間市"
+audit_status: "IN_PROGRESS"
+notes: "笠間図書館・友部図書館・岩間図書館の3館体制網羅確認"
+facilities:
+  - facility_id: "IB-08216-01"
+    name: "笠間市立笠間図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "309-1613"
+    address: "笠間市石井2023-1"
+    phone: "0296-72-5046"
+    fax: "0296-72-5743"
+    established_year_month: "2004-04"
+    opened_year_month: "2004-04"
+    building_structure: "鉄筋コンクリート造（一部鉄骨） 地上2階"
+    floor_area_m2: 2779.25
+    reading_seats: 171
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 260291
+    history:
+      - date: "2004-04"
+        event: "創設"
+      - date: "2004-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08216-02"
+    name: "笠間市立友部図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "309-1722"
+    address: "笠間市平町2084"
+    phone: "0296-78-1200"
+    fax: "0296-78-3683"
+    established_year_month: "1994-04"
+    opened_year_month: "1994-10"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 2361.69
+    reading_seats: 125
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 260890
+    history:
+      - date: "1994-04"
+        event: "創設"
+      - date: "1994-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08216-03"
+    name: "笠間市立岩間図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "319-0294"
+    address: "笠間市下郷5140 市民センターいわま内"
+    phone: "0299-45-2082"
+    fax: "0299-45-8210"
+    established_year_month: "1985-07"
+    opened_year_month: "2008-10"
+    building_structure: "鉄筋コンクリート3階建 2階の一部"
+    floor_area_m2: 903.38
+    reading_seats: 85
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 90500
+    history:
+      - date: "1985-07"
+        event: "創設"
+      - date: "2008-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

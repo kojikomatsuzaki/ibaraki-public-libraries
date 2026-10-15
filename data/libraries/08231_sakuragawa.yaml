@@ -1,0 +1,63 @@
+municipality_code: "08231"
+municipality_name: "桜川市"
+audit_status: "IN_PROGRESS"
+notes: "桜川市立図書館（令和7年2月新設開館）および真壁伝承館図書室の2拠点網羅確認"
+facilities:
+  - facility_id: "IB-08231-01"
+    name: "桜川市立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "309-1214"
+    address: "桜川市東桜川1-21-1 桜川市生涯学習センター内"
+    phone: "0296-71-7707"
+    fax: "0296-71-7708"
+    established_year_month: "2025-02"
+    opened_year_month: "2025-02"
+    building_structure: "鉄筋・鉄骨コンクリート"
+    floor_area_m2: 3634.84
+    reading_seats: 120
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 75000
+    history:
+      - date: "2025-02"
+        event: "創設"
+      - date: "2025-02"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08231-02"
+    name: "桜川市真壁伝承館図書室"
+    category: "Cat C"
+    legal_status: "community_center_library"
+    postal_code: "300-4408"
+    address: "桜川市真壁町真壁198 真壁伝承館内"
+    phone: "0296-23-8525"
+    fax: "0296-23-8522"
+    established_year_month: "2011-07"
+    opened_year_month: "2011-09"
+    building_structure: "鉄板パネル付鉄骨ラーメン造"
+    floor_area_m2: 635.0
+    reading_seats: 24
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 31068
+    history:
+      - date: "2011-07"
+        event: "創設"
+      - date: "2011-09"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

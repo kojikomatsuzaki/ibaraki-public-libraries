@@ -1,0 +1,121 @@
+municipality_code: "08202"
+municipality_name: "日立市"
+audit_status: "IN_PROGRESS"
+notes: "4館体制（記念・多賀・十王・南部）網羅確認。各館個別所蔵数確認済み。条例詳細照合中"
+facilities:
+  - facility_id: "IB-08202-01"
+    name: "日立市立記念図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "317-0073"
+    address: "日立市幸町1-21-1 日立シビックセンター内"
+    phone: "0294-24-7714"
+    fax: "0294-24-7977"
+    established_year_month: "1962-04"
+    opened_year_month: "1990-11"
+    building_structure: "鉄筋コンクリート造 地下1階、地上10階"
+    floor_area_m2: 3384.31
+    reading_seats: 241
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 453087
+    history:
+      - date: "1962-04"
+        event: "創設"
+      - date: "1990-11"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08202-02"
+    name: "日立市立多賀図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "316-0006"
+    address: "日立市末広町1-1-4 日立市教育会館内"
+    phone: "0294-33-2655"
+    fax: "0294-36-3339"
+    established_year_month: "1970-05"
+    opened_year_month: "1981-05"
+    building_structure: "鉄筋コンクリート造 地上4階"
+    floor_area_m2: 3025.26
+    reading_seats: 118
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 135570
+    history:
+      - date: "1970-05"
+        event: "創設"
+      - date: "1981-05"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08202-03"
+    name: "日立市立十王図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "319-1304"
+    address: "日立市十王町友部202-1"
+    phone: "0294-20-2345"
+    fax: "0294-20-2346"
+    established_year_month: "2001-10"
+    opened_year_month: "2001-10"
+    building_structure: "鉄筋コンクリート造 一部木造地上2階"
+    floor_area_m2: 1127.5
+    reading_seats: 116
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 113192
+    history:
+      - date: "2001-10"
+        event: "創設"
+      - date: "2001-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08202-04"
+    name: "日立市立南部図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "319-1222"
+    address: "日立市久慈町3-24-1"
+    phone: "0294-29-1125"
+    fax: "0294-53-0706"
+    established_year_month: "2013-04"
+    opened_year_month: "2013-04"
+    building_structure: "RC造（一部鉄骨造） 平屋建て"
+    floor_area_m2: 1398.05
+    reading_seats: 199
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 117682
+    history:
+      - date: "2013-04"
+        event: "創設"
+      - date: "2013-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

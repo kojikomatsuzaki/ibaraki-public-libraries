@@ -1,0 +1,34 @@
+municipality_code: "08564"
+municipality_name: "利根町"
+audit_status: "IN_PROGRESS"
+notes: "利根町図書館網羅確認。平成8年開館"
+facilities:
+  - facility_id: "IB-08564-01"
+    name: "利根町図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "300-1632"
+    address: "北相馬郡利根町下曽根278-1"
+    phone: "0297-68-8868"
+    fax: "0297-68-2499"
+    established_year_month: "1996-07"
+    opened_year_month: "1996-10"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 2454.3
+    reading_seats: 115
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 179370
+    history:
+      - date: "1996-07"
+        event: "創設"
+      - date: "1996-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

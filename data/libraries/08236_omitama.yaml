@@ -1,0 +1,92 @@
+municipality_code: "08236"
+municipality_name: "小美玉市"
+audit_status: "IN_PROGRESS"
+notes: "小川図書館・玉里図書館・美野里公民館図書室の3拠点網羅確認"
+facilities:
+  - facility_id: "IB-08236-01"
+    name: "小美玉市小川図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "311-3423"
+    address: "小美玉市小川1664-2 小美玉市小川資料館併設"
+    phone: "0299-58-5828"
+    fax: "0299-37-1371"
+    established_year_month: "1991-12"
+    opened_year_month: "1992-04"
+    building_structure: "鉄筋コンクリート造 地上2階建一部地階"
+    floor_area_m2: 778.0
+    reading_seats: 76
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 47634
+    history:
+      - date: "1991-12"
+        event: "創設"
+      - date: "1992-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08236-02"
+    name: "小美玉市玉里図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "311-3433"
+    address: "小美玉市高崎291-3 玉里公民館・文化ホール併設"
+    phone: "0299-26-9111"
+    fax: "0299-26-9261"
+    established_year_month: "1994-07"
+    opened_year_month: "1994-07"
+    building_structure: "鉄筋・鉄骨コンクリート"
+    floor_area_m2: 790.3
+    reading_seats: 23
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 78914
+    history:
+      - date: "1994-07"
+        event: "創設"
+      - date: "1994-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08236-03"
+    name: "小美玉市美野里公民館図書室"
+    category: "Cat C"
+    legal_status: "community_center_library"
+    postal_code: "319-0192"
+    address: "小美玉市堅倉835 美野里公民館内"
+    phone: "0299-48-1110"
+    fax: "0299-48-3679"
+    established_year_month: "1980-07"
+    opened_year_month: "1980-09"
+    building_structure: "鉄筋造 地上2階"
+    floor_area_m2: 114.0
+    reading_seats: 6
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 22038
+    history:
+      - date: "1980-07"
+        event: "創設"
+      - date: "1980-09"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

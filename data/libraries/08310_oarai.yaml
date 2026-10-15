@@ -1,0 +1,34 @@
+municipality_code: "08310"
+municipality_name: "大洗町"
+audit_status: "IN_PROGRESS"
+notes: "大洗町中央公民館図書室網羅確認。公立図書館未設置町村"
+facilities:
+  - facility_id: "IB-08310-01"
+    name: "大洗町中央公民館図書室"
+    category: "Cat C"
+    legal_status: "community_center_library"
+    postal_code: "311-1301"
+    address: "東茨城郡大洗町磯浜町6881-88 中央公民館内"
+    phone: "029-267-0230"
+    fax: "029-267-1051"
+    established_year_month: "1982-03"
+    opened_year_month: "1982-04"
+    building_structure: "鉄筋2階"
+    floor_area_m2: 184.0
+    reading_seats: 15
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 13803
+    history:
+      - date: "1982-03"
+        event: "創設"
+      - date: "1982-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

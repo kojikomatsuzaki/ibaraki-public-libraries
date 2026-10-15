@@ -1,0 +1,63 @@
+municipality_code: "08227"
+municipality_name: "筑西市"
+audit_status: "IN_PROGRESS"
+notes: "中央図書館・明野図書館の2館体制網羅確認"
+facilities:
+  - facility_id: "IB-08227-01"
+    name: "筑西市立中央図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "308-0826"
+    address: "筑西市下岡崎1-11-1"
+    phone: "0296-24-3530"
+    fax: "0296-20-1008"
+    established_year_month: "1971-04"
+    opened_year_month: "1998-05"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 4673.06
+    reading_seats: 220
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 288801
+    history:
+      - date: "1971-04"
+        event: "創設"
+      - date: "1998-05"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08227-02"
+    name: "筑西市立明野図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "300-4517"
+    address: "筑西市海老ケ島2120-7"
+    phone: "0296-52-2466"
+    fax: "0296-52-4648"
+    established_year_month: "1986-03"
+    opened_year_month: "1986-07"
+    building_structure: "鉄筋コンクリート造 地上1階"
+    floor_area_m2: 1154.8
+    reading_seats: 36
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 115619
+    history:
+      - date: "1986-03"
+        event: "創設"
+      - date: "1986-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

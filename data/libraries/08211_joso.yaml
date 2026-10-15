@@ -1,0 +1,63 @@
+municipality_code: "08211"
+municipality_name: "常総市"
+audit_status: "IN_PROGRESS"
+notes: "常総市立図書館および常総市地域交流センター図書室の2拠点網羅確認"
+facilities:
+  - facility_id: "IB-08211-01"
+    name: "常総市立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "303-0034"
+    address: "常総市水海道天満町1606 二水会館併設"
+    phone: "0297-23-5556"
+    fax: "0297-23-5557"
+    established_year_month: "1981-04"
+    opened_year_month: "1982-07"
+    building_structure: "鉄筋コンクリート造 地上2階"
+    floor_area_m2: 1646.0
+    reading_seats: 110
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 159194
+    history:
+      - date: "1981-04"
+        event: "創設"
+      - date: "1982-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08211-02"
+    name: "常総市地域交流センター図書室"
+    category: "Cat C"
+    legal_status: "community_center_library"
+    postal_code: "300-2706"
+    address: "常総市新石下2010"
+    phone: "0297-42-0169"
+    fax: "0297-42-0596"
+    established_year_month: "1992-10"
+    opened_year_month: "1992-10"
+    building_structure: "鉄筋コンクリート造 地下1階地上7階"
+    floor_area_m2: 159.72
+    reading_seats: 6
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 8728
+    history:
+      - date: "1992-10"
+        event: "創設"
+      - date: "1992-10"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

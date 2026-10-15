@@ -1,0 +1,34 @@
+municipality_code: "08223"
+municipality_name: "潮来市"
+audit_status: "IN_PROGRESS"
+notes: "潮来市立図書館網羅確認。公民館図書室調査中"
+facilities:
+  - facility_id: "IB-08223-01"
+    name: "潮来市立図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "311-2436"
+    address: "潮来市牛堀289"
+    phone: "0299-80-3311"
+    fax: "0299-64-5880"
+    established_year_month: "2005-12"
+    opened_year_month: "2006-05"
+    building_structure: "RC2階建（一部鉄骨）"
+    floor_area_m2: 3556.0
+    reading_seats: 100
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 237971
+    history:
+      - date: "2005-12"
+        event: "創設"
+      - date: "2006-05"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

@@ -1,0 +1,34 @@
+municipality_code: "08225"
+municipality_name: "常陸大宮市"
+audit_status: "IN_PROGRESS"
+notes: "常陸大宮市立図書情報館網羅確認。文化センター併設"
+facilities:
+  - facility_id: "IB-08225-01"
+    name: "常陸大宮市立図書情報館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "319-2265"
+    address: "常陸大宮市中富町3135-6 常陸大宮市文化センター内"
+    phone: "0295-53-7300"
+    fax: "0295-53-7301"
+    established_year_month: "1995-07"
+    opened_year_month: "1995-07"
+    building_structure: "鉄筋コンクリート造"
+    floor_area_m2: 1918.0
+    reading_seats: 28
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 197444
+    history:
+      - date: "1995-07"
+        event: "創設"
+      - date: "1995-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

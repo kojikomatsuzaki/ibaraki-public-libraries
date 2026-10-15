@@ -1,0 +1,63 @@
+municipality_code: "08232"
+municipality_name: "神栖市"
+audit_status: "IN_PROGRESS"
+notes: "中央図書館・うずも図書館の2館体制網羅確認"
+facilities:
+  - facility_id: "IB-08232-01"
+    name: "神栖市立中央図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "314-0144"
+    address: "神栖市大野原4-8-1"
+    phone: "0299-92-3746"
+    fax: "0299-93-0946"
+    established_year_month: "1990-04"
+    opened_year_month: "1990-07"
+    building_structure: "鉄筋コンクリート造 地上1階"
+    floor_area_m2: 2669.23
+    reading_seats: 94
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 403153
+    history:
+      - date: "1990-04"
+        event: "創設"
+      - date: "1990-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08232-02"
+    name: "神栖市立うずも図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "314-0112"
+    address: "神栖市知手中央7-1-6 神栖市立うずもコミュニティーセンター内"
+    phone: "0299-90-5302"
+    fax: "0299-96-9696"
+    established_year_month: "1991-03"
+    opened_year_month: "1991-05"
+    building_structure: "鉄筋コンクリート造 2階"
+    floor_area_m2: 598.98
+    reading_seats: 47
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 79142
+    history:
+      - date: "1991-03"
+        event: "創設"
+      - date: "1991-05"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

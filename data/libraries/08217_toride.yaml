@@ -1,0 +1,63 @@
+municipality_code: "08217"
+municipality_name: "取手市"
+audit_status: "IN_PROGRESS"
+notes: "取手図書館・ふじしろ図書館の2館体制網羅確認"
+facilities:
+  - facility_id: "IB-08217-01"
+    name: "取手市立取手図書館"
+    category: "Cat A"
+    legal_status: "central_library"
+    postal_code: "302-0004"
+    address: "取手市取手1-12-16"
+    phone: "0297-74-8361"
+    fax: "0297-74-8398"
+    established_year_month: "1979-04"
+    opened_year_month: "1979-07"
+    building_structure: "鉄筋コンクリート地上 一部3階建て"
+    floor_area_m2: 1527.58
+    reading_seats: 159
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 225017
+    history:
+      - date: "1979-04"
+        event: "創設"
+      - date: "1979-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
+  - facility_id: "IB-08217-02"
+    name: "取手市立ふじしろ図書館"
+    category: "Cat A"
+    legal_status: "branch_library"
+    postal_code: "300-1512"
+    address: "取手市藤代415"
+    phone: "0297-70-8181"
+    fax: "0297-70-8182"
+    established_year_month: "2002-11"
+    opened_year_month: "2003-04"
+    building_structure: "鉄筋鉄骨コンクリート 地上一部3階建"
+    floor_area_m2: 2263.64
+    reading_seats: 101
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 140160
+    history:
+      - date: "2002-11"
+        event: "創設"
+      - date: "2003-04"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"

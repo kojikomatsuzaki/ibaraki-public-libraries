@@ -1,0 +1,34 @@
+municipality_code: "08546"
+municipality_name: "境町"
+audit_status: "IN_PROGRESS"
+notes: "境町中央公民館図書室網羅確認。公民館図書室体制"
+facilities:
+  - facility_id: "IB-08546-01"
+    name: "境町中央公民館図書室"
+    category: "Cat C"
+    legal_status: "community_center_library"
+    postal_code: "306-0433"
+    address: "猿島郡境町395-1"
+    phone: "0280-81-1340"
+    fax: "0280-86-6662"
+    established_year_month: "1984-03"
+    opened_year_month: "1984-07"
+    building_structure: "鉄筋地上2階"
+    floor_area_m2: 274.7
+    reading_seats: 24
+    statistics:
+      scope: "facility_level"
+      fiscal_year: 2024
+      basis_date: "2025-03-31"
+      collection_count: 15402
+    history:
+      - date: "1984-03"
+        event: "創設"
+      - date: "1984-07"
+        event: "現館開館"
+    sources:
+      - "SRC-0014"
+    verification:
+      status: "verified"
+      verified_at: "2026-10-15T05:30:00Z"
+      scope: "令和7年度茨城の図書館公式名簿および施設・所蔵統計照合"
