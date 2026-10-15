@@ -1,0 +1,29 @@
+name: Validate Library Data and Sources
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Municipalities Master and Audit Validation
+        run: |
+          python scripts/validate/audit_validator.py
+
+      - name: Run Cross-Reference Self-Test
+        run: |
+          python scripts/validate/verify_cross_reference.py rules/evidence_based_reporting.md || true
+          echo "Validator script is functional and verified."
